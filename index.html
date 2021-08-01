@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/backup-style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OsitoLibros</title>
+  <meta name="description" content="Sitio dedicado a la venta de libros usados, pero en gran estado. Gran variedad
+  de géneros y autores reconocidos, con precios accesibles.">
+  <meta name="keywords" content="Libros, Literatura, Géneros, Lectura, Venta">
+  <meta property="og:title" content="OsitoLibros, calidad asegurada"/>
+  <meta property="og:description" content="En OsitoLibros vas a encontrar las últimas novedades de la literatura a precios accesibles" alt="portada de la página">
+  <meta property="og:image" content="imagenes/portada.jpg">
+  <meta property="og:url" content="ositolibros.000webhostapp.com">
+</head>
+<body class="body">
+<header>
+
+<div class="encabezado">
+    <h1 class="encabezado__texto">OsitoLibros.com</h1>
+</div>
+
+<!---- Barra de búsqueda --------------------------->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fondo">
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Buscar</button>
+  </form>
+</nav>
+
+
+<!---- Menú de opciones ------------------------------>
+
+<nav>
+<ul class="nav justify-content-center btn btn-ttc">
+	<li>
+		<a href="index.html"><img src="imagenes/OsitosLogo.jpg" alt="logo de la pagina" class="logoositos"></a>
+	</li>
+    <li class="nav-item">
+      <a class="nav-link" href="#novedades">Novedades</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#vendidos">Más vendidos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Registrarse">Registrarse</a>
+    </li>
+  </ul>	
+</nav>
+
+<!---- Fin del menú ----------------------------------->
+
+</header>
+
+<!-- fin de mi encabezado -->
+
+<!-- contenido principal -->
+
+<main>
+
+<!-- Menú con géneros -->
+
+<nav>
+  <ul class="domenu">
+    <li class="menu3">
+      <a class="menu4" href="seccion1.html">Clásicos</a>
+    </li>
+    <li class="menu3">
+      <a class="menu4" href="seccion2.html">Aventura</a>
+    </li>
+    <li class="menu3">
+      <a class="menu4" href="seccion3.html">Crimen</a>
+    </li>
+    <li class="menu3">
+      <a class="menu4" href="seccion4.html">Iglesia</a>
+    </li>
+    <li class="menu3">
+      <a class="menu4" href="seccion22.html">Música</a>
+    </li>
+    <li class="menu3">
+      <a class="menu4" href="seccion23.html">Turismo</a>
+    </li>
+    <li class="menu3">
+      <a class="menu4" href="seccion24.html">Fantástica</a>
+    </li>
+    <li class="menu3">
+      <a class="menu4" href="seccion25.html">Autoayuda</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Termina el menú de géneros -->
+
+
+<!-- Imagenes de portada -->
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+<!-- Indicadores -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+<!-- Imagenes -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/libros.jpg" class="imagen" alt="primera imagen">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/libros1.jpg" class="imagen" alt="segunda imagen">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/libros2.jpg" class="imagen" alt="tercera">
+    </div>
+  </div>
+  
+<!-- Controles izquierda y derecha -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!-- Termina la portada --------->
+
+
+<!-- ¿Quienes somos? --->
+
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    ¿Quienes somos?
+  </button>
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <h4 class="modal-title">¿Quienes somos?</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+          Somos OsitoLibros, una página encargada de la venta de libros usados pero en muy buen estado. Tenemos mucha variedad
+          en cuanto a contenido, pasamos por géneros como el terror, romance, aventura, autoayuda, religioso, cómics e infantiles.
+          En nuestro sitio también podes encontrar grandes autores reconocidos mundialmente. 
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- Cierro el ¿Quienes somos? ---> 
+
+<!-- Primera seccion de libros --->
+
+<section id="novedades" class="container p-3 my-3 bg-dark text-white contenedor">
+    <div class="titulo1">Novedades</div>
+    	<section class="novedades">
+    		<div><a href="seccion8.html"><img src="imagenes/fotto1.jpg" alt="primer libro novedades" class="novedades__foto"><h3>El Retorno de los Matarese</h3></a></div>
+    		<div><a href="seccion10.html"><img src="imagenes/fotto2.jpg" alt="segundo libro novedades" class="novedades__foto"><h3>No hay lugar seguro</h3></a></div>
+    		<div><a href="seccion9.html"><img src="imagenes/fotto3.jpg" alt="tercer libro novedades" class="novedades__foto"><h3>Crimenes de Estado</h3></a></div>
+    		<div><a href="seccion11.html"><img src="imagenes/foto4.jpg" alt="cuarto libro novedades" class="novedades__foto"><h3>La dama del alba</h3></a></div>
+        </section>
+</section>
+
+<!-- segunda seccion de libros -->
+
+<section class="container p-3 my-3 bg-dark text-white contenedor">
+    <div class="titulo2">Para leer en casa</div>
+    <section class= "pandemia"> 
+    	<div><a href="seccion12.html"><img src="imagenes/cyrano.jpg" alt="primer libro pandemia" class="pandemia__foto"><h3>Cyrano de Bergerac</h3></a></div>
+    	<div><a href="seccion13.html"><img src="imagenes/doblejuego.jpg" alt="segundo libro pandemia" class="pandemia__foto"><h3>Doble Juego</h3></a></div>
+    	<div><a href="seccion14.html"><img src="imagenes/leyendaafricana.jpg" alt="tercer libro pandemia" class="pandemia__foto"><h3>Leyenda Africana</h3></a></div>
+    	<div><a href="seccion15.html"><img src="imagenes/elvengador.jpg" alt="cuarto libro pandemia" class="pandemia__foto"><h3>El Vengador</h3></a></div>
+    </section>
+</section>
+
+
+<!-- tercera seccion de libros -->
+
+<section class="container p-3 my-3 bg-dark text-white contenedor">
+<div class="titulo3">Cómics</div>
+<section class="comics">
+	<div><a href="seccion16.html"><img src="imagenes/comic1.jpg" alt="primer comic" class="comics__foto"><h3>Old Man Logan</h3></a></div>
+	<div><a href="seccion17.html"><img src="imagenes/comic2.jpg" alt="segundo comic" class="comics__foto"><h3>Spider-Man: De Regreso a Casa</h3></a></div>
+	<div><a href="seccion18.html"><img src="imagenes/comic3.jpg" alt="tercer comic" class="comics__foto"><h3>Batman: Año Uno</h3></a></div>
+	<div><a href="seccion19.html"><img src="imagenes/comic4.jpg" alt="cuarto comic" class="comics__foto"><h3>La Muerte de Spider-Man</h3></a></div>
+</section>
+</section>
+
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+Aviso </button>
+<div id="demo" class="collapse"> Los cómics son originales y no tienen uso. </div>
+
+ 
+<!-- cuarta seccion de libros -->
+
+<section class="container p-3 my-3 bg-dark text-white contenedor"> 
+<div class="titulo4">Infantiles</div>   
+    <section class="infantiles">
+    		    <div><a href="seccion20.html"><img src="imagenes/infantil1.jpg" alt="primer libro infantil" class="infantiles__foto"><h3>El secreto del tanque de agua</h3></a></div>
+    		    <div><a href="seccion21.html"><img src="imagenes/infantil2.jpg" alt="segundo libro infantil" class="infantiles__foto"><h3>El caballero de la armadura oxidada</h3></a></div> 
+    		    <div><a href="seccionRebelion.html"><img src="imagenes/infantil3.jpg" alt="tercer libro infantil" class="infantiles__foto"><h3>La rebelión de las palabras</h3></a></div> 	
+    		    <div><a href="seccionElLugarMasBonito.html"><img src="imagenes/infantil4.jpg" alt="cuarto libro infantil" class="infantiles__foto"><h3>El lugar más bonito del mundo</h3></a></div>	      
+    </section>
+</section>
+<!-- Terminan las secciones -->
+
+
+<!-- más géneros -->
+
+<section class="container p-3 my-3 bg-dark text-white contenedor">
+<ul class="nav justify-content-center btn btn-ttc menu2">
+    <li class="nav-item">
+      <a class="nav-link" href="seccion26.html">Terror</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="seccion27.html">Escolares</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="seccion28.html">Ficción</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="seccion29.html">Romance</a>
+    </li>
+</ul>	
+</section> 
+
+
+<!-- Empieza la tabla --->
+
+<section id="vendidos" class="container">
+  <h2>Información sobre libros más vendidos</h2>          
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Autor</th>
+        <th>Género</th>
+        <th>Editorial</th>
+        <th>Cant. Páginas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>La Esfinge</td>
+        <td>Robin Cook</td>
+        <td>Thriller</td>
+        <td>Top Emecé</td>
+        <td>352 Páginas</td>
+      </tr>
+      <tr>
+        <td>Oro Inca</td>
+        <td>Jim Becket</td>
+        <td>Aventura</td>
+        <td>Atlántida</td>
+        <td>126 Páginas</td>
+      </tr>
+      <tr>
+        <td>Edipo Rey</td>
+        <td>Sófocles</td>
+        <td>Tragedia</td>
+        <td>SALIM</td>
+        <td>128 Páginas</td>
+      </tr>
+        <td>El Retrato de Dorian Gray</td>
+        <td>Oscar Wilde</td>
+        <td>Novela Filosófica</td>
+        <td>SALIM</td>
+        <td>283 Páginas</td>
+      </tr>
+      <tr>
+        <td>La Fabrica del Terror</td>
+        <td>Ana Maria Shua</td>
+        <td>Terror</td>
+        <td>Primera Sudamericana</td>
+        <td>114 Páginas</td>
+      </tr>
+      <tr>
+      	<td>Estudio en Escarlata</td>
+      	<td>Arthur Conan Doyle</td>
+      	<td>Detectivesco</td>
+      	<td>SALIM</td>
+      	<td>190 Páginas</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<!-- Termina la tabla -->				
+
+
+<!-- Aquí empieza el formulario -->
+
+<section class="formulario1">
+<h2 id="Registrarse"><p class="text-primary">Registrate</p></h2>
+<form>
+    <fieldset>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-2">Recibir correos</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox">Sí, quiero recibir
+    </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Registrarse</button>
+    </div>
+  </div>
+  <div class="container">
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Explorar
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Autores</a>
+      <a class="dropdown-item" href="#">Editoriales</a>
+      <a class="dropdown-item" href="#">Puntos de venta</a>
+    </div>
+  </div>
+</div>
+    </fieldset>
+</form>
+</section>
+<!-- Aquí termina el formulario -->
+
+<!-- Garantía de productos -->
+
+<div class="alert alert-warning">
+  <strong>Atención</strong> Tenés una garantía de 6 meses en todos los productos. 
+</div>
+ 
+<!-- Empiezan los avisos -->
+
+
+<section class="avisos">
+	<div class="container p-3 my-3 bg-dark text-white">Activá Mercado Crédito y pagá en hasta 12 cuotas sin tarjeta <a href="https://www.mercadolibre.com.ar/mercado-credito/cuotas-sin-tarjeta/?sk=IIIMqPXS&matt_tool=55262207&matt_word=exact&gclid=Cj0KCQjw8IaGBhCHARIsAGIRRYr5objGNpvA4F2ItxQG2xIj-a8xtkk_pDCgEDKLuD7CHn5c6gY9OPMaAhwNEALw_wcB">(Quiero saber mas)</a></div>
+
+	<div class="container p-3 my-3 bg-dark text-white">Visitá nuestra página de MercadoLibre <a href="https://listado.mercadolibre.com.ar/_CustId_459946888">Aquí</a></div>
+
+	<div class="container p-3 my-3 bg-dark text-white">Seguinos en: <a href="https://twitter.com">Twitter</a> <a href="https://www.instagram.com/ositolibros/">Instagram</a> <a href="https://es-la.facebook.com/">Facebook</a></div>
+</section>
+
+
+</main>
+<!-- cierre de contenido principal -->
+
+
+<!-- apertura de pie de pagina -->
+    
+	<footer class="pie">
+		<nav>
+			<a href="seccion5.html">Conócenos</a>
+			<a href="seccion6.html">Política de cookies</a>
+			<a href="seccion7.html">Política de privacidad</a>
+		</nav>   
+	</footer>
+
+<!-- cierre de pie de pagina -->
+
+
+<!-- Etiquetas de Bootstrap -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW.js().init();
+</script>
+
+</body>
+</html>
+	

@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*Variables*/
+/*Encabezado*/
+.body {
+  background-color: #B8F9DB;
+}
+
+.encabezado {
+  background-color: #1B00C1;
+  height: 80px;
+  text-shadow: 5px 5px 5px #000000;
+  background-image: linear-gradient(to left, #5DFFA2, black);
+}
+
+.encabezado__texto {
+  font-size: 70px;
+  font-family: "Otomanopee One", sans-serif;
+  color: white;
+}
+
+/*Barra de búsqueda*/
+.btn-success {
+  background-color: black;
+}
+.btn-success:hover {
+  background-color: #5DFFA2;
+  color: black;
+  border-style: solid;
+  border-color: black;
+}
+
+.fondo {
+  background-color: black;
+  border-style: solid;
+  border-bottom-color: #5DFFA2;
+}
+
+/*Menu*/
+.logoositos {
+  height: 95px;
+  width: 110px;
+  border-style: solid;
+  border-color: #5DFFA2;
+  border-radius: 50px;
+}
+.logoositos:hover {
+  border-style: solid;
+  border-color: white;
+}
+
+.btn-ttc {
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px 230px;
+  grid-column-gap: 10px;
+  margin: 10px;
+}
+
+.nav-link {
+  font-family: "Otomanopee One", sans-serif;
+  border-style: solid;
+  border-color: #5DFFA2;
+  border-radius: 20px;
+  background-color: black;
+  color: #5DFFA2;
+  font-size: 40px;
+}
+.nav-link:hover {
+  width: 200px;
+  height: 80px;
+  border-style: solid;
+  border-color: white;
+  color: #5DFFA2;
+}
+
+/*Cierro encabezado*/
+/*Contenido principal*/
+.imagen {
+  border-radius: 20px;
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+  box-shadow: 4px 4px 4px black;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+}
+
+/*¿Quienes Somos?*/
+.modal-footer button {
+  background-color: black;
+  border-style: solid;
+  border-color: #5DFFA2;
+}
+.modal-footer button:hover {
+  background-color: #5DFFA2;
+  color: black;
+  border-style: solid;
+  border-color: black;
+}
+
+.btn-primary {
+  background-color: black;
+  border-style: solid;
+  border-color: #5DFFA2;
+  border-radius: 10px;
+}
+.btn-primary:hover {
+  background-color: #5DFFA2;
+  color: black;
+}
+
+/*Secciones de libros*/
+/*Extends*/
+.titulo4, .titulo3, .titulo2, .titulo1 {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 30px;
+  position: absolute;
+  padding-left: 40px;
+  padding-top: 5px;
+  color: white;
+}
+
+.infantiles, .comics, .pandemia, .novedades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.infantiles__foto, .comics__foto, .pandemia__foto, .novedades__foto {
+  width: 200px;
+  height: 300px;
+  border-style: solid;
+  border-color: #5DFFA2;
+  box-shadow: 5px 5px 5px black;
+}
+
+.infantiles__foto:hover, .comics__foto:hover, .pandemia__foto:hover, .novedades__foto:hover {
+  border-style: solid;
+  border-color: red;
+}
+
+.infantiles div a, .comics div a, .pandemia div a, .novedades div a {
+  font-size: 18px;
+  color: white;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+/*Seccion de Terror*/
+.Encabezado1 {
+  font-family: "Staatliches", cursive;
+  color: #FFFFFF;
+  background-color: #1B00C1;
+  font-size: 200%;
+  height: 80px;
+  text-shadow: 4px 4px 4px #000000;
+  background-image: linear-gradient(to left, #5DFFA2, black);
+}
+
+.texto1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 200%;
+  top: 50px;
+  width: 100%;
+  border-style: inset;
+  border-color: #5DFFA2;
+  background-color: black;
+  color: white;
+}
+
+.tituloterror {
+  margin: 10px;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Passion One", cursive;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  margin: 25px;
+  padding-top: 70px;
+}
+
+.galeria__foto {
+  width: 200px;
+  height: 300px;
+  border-style: solid;
+  border-color: #5DFFA2;
+  box-shadow: 5px 5px 5px black;
+}
+
+.galeria__foto:hover {
+  border-style: solid;
+  border-color: red;
+}
+
+.galeria div {
+  font-family: "Passion One", cursive;
+  font-size: 20px;
+  color: white;
+}
+
+.pie {
+  font-family: "Staatliches", cursive;
+  width: 100%;
+  background-image: linear-gradient(to left, #5DFFA2, black);
+  height: 120px;
+  bottom: 0px;
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.colorTerror {
+  background-color: #B8F9DB;
+}
+
+.pie a {
+  color: white;
+}
+
+/*Cierro seccion de Terror*/
+
+/*# sourceMappingURL=style.css.map */

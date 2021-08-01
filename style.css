@@ -1,0 +1,704 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+.body{
+	background-color: #9DFBF8;
+}
+
+
+/*Encabezado -------------*/
+
+.encabezado{
+	color:#FBF9F9;
+	background-color: #1B00C1;
+	font-size: 200px;
+	height: 80px;
+	text-shadow: 5px 5px 5px #000000;
+	font-family: 'Staatliches', cursive;
+	background-image: linear-gradient(to left, blue, black)
+}
+
+
+
+.menu{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 230px 230px 230px 230px 230px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 10px;
+	height: 70px;
+}
+
+
+.menu div{
+	font-family: 'Staatliches', cursive;
+	border-style: solid;
+	border-color: black;
+	background-color: #00E5A7;
+	color: black;
+	font-size: 40px;
+}
+
+.menu div:hover{
+	width: 200px;
+	height: 70px
+	background-color: #0034CA;
+	border-style: solid;
+	border-color: white;
+}
+
+
+.menu1{
+	display: grid;
+	grid-template-columns: 230px 230px 230px 230px 230px;
+
+}
+
+
+.ositos{
+	height: 50px;
+	width: 70px;
+}
+
+.ositos__foto{
+	height: 65px;
+	width: 130px;
+	display: flex;
+	justify-content: center;
+	padding-left: 47px;
+}
+
+/*Comienza el contenido principal -------*/
+
+.imagen{
+         border-radius: 20px;
+         width: 1200px;
+         height: 450px;
+         margin:auto;
+         padding-top: 10px;
+         box-shadow: 4px 4px 4px black;
+         display: flex;
+         justify-content: center;
+}
+
+
+.titulo1{
+	font-family: 'Staatliches', cursive;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	padding-top: 30px;
+	color: white;
+}
+
+.novedades{
+	font-style: 'Passion One', cursive;
+	padding-top: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px;
+	padding: 50px;
+	border-style: inset;
+	border-color: black;
+	background-color: #1B00C1;
+}
+
+.novedades__foto{
+	width: 200px;
+	height: 300px;
+	border-style: inset;
+	border-color: #000000;
+	box-shadow: 5px 5px 5px black;
+}
+
+.novedades__foto:hover{
+	width: 220px;
+	height: 320px;
+	border-style: solid;
+	border-color: red;
+}
+
+.novedades div{
+	color: white;
+	font-size: 18px;
+}
+
+/*segunda seccion de libros ------------*/
+
+.titulo2{
+	font-family: 'Staatliches', cursive;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	color: black;
+}
+
+.pandemia{
+	font-style: 'Passion One', cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px;
+	padding: 50px;
+	border-style: inset;
+	border-color: black;
+	background-color: #00E5A7;
+
+}
+
+.pandemia__foto{
+	width: 200px;
+	height: 300px;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+.pandemia div{
+	color: black;
+	font-size: 18px;
+}
+
+.pandemia__foto:hover{
+	width: 220px;
+	height: 320px;
+	border-style: solid;
+	border-color: red;
+
+}
+
+
+/*tercera seccion de libros -------------*/
+
+.titulo3{
+	font-family: 'Staatliches', cursive;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	color: white;
+}
+
+.comics{
+	font-style: 'Passion One', cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px;
+	padding: 50px;
+	border-style: inset;
+	border-color: black;
+	background-color: #1B00C1;
+}
+
+
+.comics__foto{
+	width: 200px;
+	height: 300px;
+	border-style: inset;
+	border-color: #000000;
+	box-shadow: 5px 5px 5px black;
+}
+
+.comics div{
+	color: black;
+	font-size: 18px;	
+}
+
+.comics__foto:hover{
+	border-style: solid;
+	border-color: red;
+	width: 220px;
+	height: 320px;
+}
+
+
+
+/*Colores -----------*/
+
+.colores{
+	display: grid;
+	grid-template-columns: 330px 330px 330px 330px;
+	grid-column-gap: 5px;
+	justify-content: center;
+	align-items: stretch;
+	margin: 10px;
+	padding: 10px;
+}
+
+.colores__tamaño{
+	width: 330px;
+	height: 120px;
+	border-style: inset;
+	border-color: black;
+}
+
+.colores__tamaño:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+
+/*Tabla -----------*/
+
+
+.tabla{
+	font-style: 'Passion One', cursive;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	height: 200px;
+	color: black;
+	margin: 10px;
+}
+
+.tablatitulo{
+	font-style: 'Passion One', cursive;
+	color: #610567;
+	margin: 10px;
+	animation-duration: 2s;
+}
+
+.tabla1{
+	background-color: white;
+	color: white;
+}
+
+
+/*Formulario --------------*/
+
+.formulario {
+	font-family: 'Staatliches', cursive;
+	color:#000000;
+	width: 600px;
+	height: 245px;
+	margin: 10px;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+
+/*Infantiles --------------*/
+
+.infantiles{
+	padding-top: 20px;
+	border-style: inset;
+	border-color: black;
+	width: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #00E5A7;
+	margin: 10px;
+}
+
+
+.infantiles__foto{
+	margin: 10px;
+	height: 300px;
+	width: 170px;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+.infantiles__foto:hover{
+	height: 320px;
+	width: 190px;
+	border-style: solid;
+	border-color: red;
+}
+
+.infantiles div{
+	color: black;
+	font-size: 16px;
+}
+
+
+/*Conjunto formulario - infantiles ---------------------------*/
+
+.conjunto{
+	display: grid;
+	grid-template-areas: "formulario formulario infantiles infantiles";
+	justify-content: center;
+}
+
+
+/*Avisos ------------------*/
+
+.avisos{
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: 450px 450px 450px;
+	grid-column-gap: 5px;
+	justify-content: center;
+}
+
+.avisos div{
+	background-color: #03006F;
+	color:white;
+	font-size: 10px
+	padding:30px;
+	width: 400px;
+	height:60px;
+	border-radius: 20px;
+	margin: 10px;
+	border-style: solid;
+	border-color: #13FFB4;
+	text-align: center;
+	transform: translate(20px, 20px);
+}
+
+
+/*Generos --------------*/
+
+.generos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.generos > div{
+	background-color: #00E5A7;
+	margin: 10px;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 20px;
+	border-style: inset;
+	border-color: black;
+	text-align: center;
+}
+
+
+.generos > div:hover{
+	width: 200px;
+	height: 40px;
+}
+
+
+/*Footer --------------------*/
+
+.pie{
+	font-family: 'Staatliches', cursive;
+	width: 100%;
+	background-image: linear-gradient(to left, #001087, black);
+	color: white;
+	height: 120px;
+	bottom: 0px;
+	text-align: center;
+}
+
+/*Tamaños para celulares ----------------*/
+
+@media (min-width: 576px){
+.body{
+	background-color: white;
+	}
+.imagen{
+		height: 300px;
+		width: 900px;
+	}
+.encabezado{
+		height: 150px;
+		width: 100px;
+	}
+}
+
+
+
+/*Seccion1 (Clasicos) -------------------*/
+
+.color{
+	background-color: #9DFBF8;
+}
+
+.Encabezado1{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+	background-image: linear-gradient(to left, blue, black)
+}
+
+.texto1{
+	font-family: 'Staatliches', cursive;
+	font-size: 200%;
+	top: 50px;
+	width: 900px;
+	border-style: inset;
+	border-color: black;
+	background-color: white;
+	margin: 10px;
+}
+
+.tituloclasicos{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+	border-style: solid;
+	border-color: black;
+	background-color: #00E5A7;
+}
+
+
+.galeria {
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 70px;
+	border-style: inset;
+	border-color: black;
+	background-color: #1B00C1;
+}
+
+
+.galeria__foto{
+	width: 200px;
+	height: 300px;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeria__foto:hover{
+	width: 220px;
+	height: 320px;
+	border-style: solid;
+	border-color: red;
+}
+
+.galeria div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+/*Seccion2 (Aventura) ---------------------*/
+
+.color2{
+	background-color: #9DFBF8;
+}
+
+.encabezado{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000
+}
+
+.parrafo{
+	font-family: 'Staatliches', cursive;
+	font-size: 200%;
+	width: 1330px;
+	border-style: inset;
+	border-color: black;
+	background-color: white;
+}
+
+.tituloaventura{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+	border-style: solid;
+	border-color: black;
+	background-color: #00E5A7;
+}
+
+
+.galeriaaventura{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 55px;
+	border-style: inset;
+	border-color: black;
+	background-color: #1B00C1
+}
+
+
+.galeriaaventura__foto{
+	width: 200px;
+	height: 300px;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeriaaventura__foto:hover{
+	width: 220px;
+	height: 320px;
+	border-style: solid;
+	border-color: red;
+}
+
+.galeriaaventura div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+/*Seccion3 (Crimen) ------------------------*/
+
+.color3{
+	background-color: #9DFBF8;
+}
+
+.encabezado{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+}
+
+.parrafo{
+	font-family: 'Staatliches', cursive;
+	font-size: 200%;
+	top: 50px;
+	width: 1330px;
+	border-style: inset;
+	border-color: black;
+	background-color: white;
+}
+
+.crimentitulo{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+	border-style: solid;
+	border-color: black;
+	background-color: #00E5A7;
+}
+
+.galeriacrimen{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 30px;
+	padding-top: 55px;
+	border-style: inset;
+	border-color: black;
+	background-color: #1B00C1;
+}
+
+
+.galeriacrimen__foto{
+	width: 200px;
+	height: 300px;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeriacrimen__foto:hover{
+	width: 220px;
+	height: 320px;
+	border-style: solid;
+	border-color: red;
+}
+
+.galeriacrimen div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+/*Seccion4 (Iglesia) -------------------------*/
+
+.color4{
+	background-color: #9DFBF8;
+}
+
+.encabezado{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+}
+
+.parrafo{
+	font-family: 'Staatliches', cursive;
+	font-size: 200%;
+	top: 50px;
+	width: 1330px;
+	border-style: inset;
+	border-color: black;
+	background-color: white;
+}
+
+
+.iglesiatitulo{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+	border-style: solid;
+	border-color: black;
+	background-color: #00E5A7;
+}
+
+
+.galeriaiglesia{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 55px;
+	border-style: inset;
+	border-color: black;
+	background-color: #1B00C1;
+}
+
+.galeriaiglesia div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+.galeriaiglesia__foto{
+	width: 200px;
+	height: 300px;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeriaiglesia__foto:hover{
+	width: 220px;
+	height: 320px;
+	border-style: solid;
+	border-color: red;
+}
+
+
+/* Media Queries -----------------------*/
+

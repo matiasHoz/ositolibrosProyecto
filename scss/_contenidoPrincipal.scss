@@ -1,0 +1,39 @@
+/*Contenido principal*/
+
+.imagen {
+	border-radius: ($radio/2)-5;
+	width: ($ancho*10)+100;
+	height: ($alto*3)-30;
+	margin: $automatico;
+	box-shadow: $sombras2;
+	display: $pantalla2;
+	justify-content: $contenido;
+	border-style: $borde-estilo;
+}
+
+/*¿Quienes Somos?*/
+
+.modal-footer button{
+	background-color: $color;
+	border-style: $borde-estilo;
+	border-color: $verde;
+
+	&:hover{
+	background-color: $verde;
+	color: $color;
+    border-style: $borde-estilo;
+    border-color: $color;
+	}
+}
+
+.btn-primary {
+	background-color: $color;
+	border-style: $borde-estilo;
+	border-color: $verde;
+	border-radius: $radio/5;
+
+	&:hover {
+    background-color: $verde;
+    color: $color;
+ 	}
+}

@@ -1,0 +1,127 @@
+/*Secciones de libros*/
+
+/*Extends*/
+
+%titulo {
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	padding-top: 5px;
+	color: white;
+}
+
+%orden {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+%imagen {
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+%hover {
+	border-style: $borde-estilo;
+	border-color: $color3;
+}
+
+%texto {
+	font-size: 18px;
+	color: white;
+	font-family:  'Otomanopee One', sans-serif;
+}
+
+.titulo1{
+	@extend %titulo;
+}
+
+.novedades{
+	@extend %orden;
+}
+
+.novedades__foto{
+	@extend %imagen;
+
+	&:hover {
+	@extend %hover;
+	}
+}
+
+.novedades div a {
+	@extend %texto;
+}
+
+
+
+
+
+.titulo2 {
+	@extend %titulo;
+}
+
+.pandemia {
+	@extend %orden;
+}
+
+.pandemia__foto {
+	@extend %imagen;
+
+	&:hover {
+	@extend %hover;
+	}
+}
+
+.pandemia div a {
+	@extend %texto;
+}
+
+
+
+.titulo3 {
+	@extend %titulo;
+}
+
+.comics {
+	@extend %orden;
+}
+
+.comics__foto {
+	@extend %imagen;
+
+	&:hover {
+	@extend %hover;
+	}
+}
+
+.comics div a {
+	@extend %texto;
+}
+
+
+
+.titulo4 {
+	@extend %titulo;
+}
+
+.infantiles {
+	@extend %orden;
+}
+
+.infantiles__foto {
+	@extend %imagen;
+
+	&:hover {
+	@extend %hover;
+	}
+}
+
+.infantiles div a {
+	@extend %texto;
+}
+

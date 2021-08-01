@@ -1,0 +1,112 @@
+/*Seccion de Terror*/
+
+%Encabezado {
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+	background-image: linear-gradient(to left, #5DFFA2, black)
+}
+
+%texto1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 200%;
+	top: 50px;
+	width: 100%;
+	border-style: inset;
+	border-color: #5DFFA2;
+	background-color: black;
+	color: white;
+}
+
+%titulo2 {
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+}
+
+%galeria {
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 70px;
+}
+
+%fotos {
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+%hover2 {
+	border-style: solid;
+	border-color: red;
+}
+
+%texto2 {
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+%footer {
+	font-family: 'Staatliches', cursive;
+	width: 100%;
+	background-image: linear-gradient(to left, #5DFFA2, black);
+	height: 120px;
+	bottom: 0px;
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: black;
+}
+
+
+.colorTerror {
+	background-color: $fondo-pagina;
+}
+
+
+.Encabezado1 {
+	@extend %Encabezado;
+}
+
+.texto1 {
+	@extend %texto1;
+}
+
+.tituloterror {
+	@extend %titulo2;
+}
+
+.galeria {
+	@extend %galeria;
+}
+
+.galeria__foto {
+	@extend %fotos;
+
+	&:hover {
+	@extend %hover2;
+	}
+}
+
+.galeria div {
+	@extend %texto2;
+}
+
+.pie {
+	@extend %footer;
+}
+
+.pie a {
+	color: $color2;
+}
+
+/*Cierro seccion de Terror*/

@@ -1,0 +1,79 @@
+/*Encabezado*/
+
+.body{
+	background-color: $fondo-pagina;
+}
+
+.encabezado {
+	background-color: $fondo;
+	height: $alto/2;
+	text-shadow: $sombras;
+	background-image: $gradiente;
+}
+
+.encabezado__texto {
+	font-size: ($tamaño/2)-20;
+	font-family: $fuente;
+	color: $color2;
+}
+
+/*Barra de búsqueda*/
+
+.btn-success {
+	background-color: $color;
+
+	&:hover{
+	background-color: $verde;
+	color: $color;
+	border-style: $borde-estilo;
+	border-color: $color;
+	}
+}
+
+.fondo {
+	background-color: $color;
+	border-style: $borde-estilo;
+	border-bottom-color: $verde;
+}
+
+/*Menu*/
+
+.logoositos {
+	height: ($alto/2)+15;
+	width: $ancho;
+	border-style: $borde-estilo;
+	border-color: $verde;
+	border-radius: $radio;
+
+	&:hover {
+	border-style: $borde-estilo;
+	border-color: $color2;
+	}
+}
+
+.btn-ttc {
+	display: $pantalla;
+	grid-template-columns: $columnas;
+	grid-column-gap: $margen;
+	margin: $margen;
+}
+
+.nav-link {
+	font-family: $fuente; 
+	border-style: $borde-estilo;
+	border-color: $verde;
+	border-radius: ($radio/2)-5;
+	background-color: $color;
+	color: $verde;
+	font-size: ($tamaño/3)-20;
+
+	&:hover {
+    width: ($ancho*2)-20;
+    height: $alto/2;
+    border-style: $borde-estilo;
+    border-color: $color2;
+    color: $verde;
+ 	}
+}
+
+/*Cierro encabezado*/

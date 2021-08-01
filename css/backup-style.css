@@ -1,0 +1,881 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+.body{
+	background-color: #B8F9DB;
+}
+
+
+/*Encabezado -------------*/
+
+.encabezado{
+	background-color: #1B00C1;
+	height: 80px;
+	text-shadow: 5px 5px 5px #000000;
+	background-image: linear-gradient(to left, #5DFFA2, black);
+}
+
+.encabezado__texto{
+	font-size: 70px;
+	font-family: 'Otomanopee One', sans-serif;
+}
+
+/*Barra de búsqueda -------------------*/
+
+.btn-success{
+	background-color: black !important;
+}
+
+.btn-success:hover{
+	background-color:  #5DFFA2 !important;
+	color: black;
+	border-style: solid;
+	border-color: black;
+}
+
+.fondo{
+	background-color: black !important;
+	border-style: solid;
+	border-bottom-color:  #5DFFA2;
+}
+
+/*Menú de opciones ---------------------*/
+
+.logoositos{
+	height: 95px;
+	width: 110px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	border-radius: 50px;
+}
+
+.logoositos:hover{
+	border-style: solid;
+	border-color: white;
+}
+
+.btn-ttc{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-column-gap: 10px;
+	margin: 10px;
+}
+
+.nav-link{
+	font-family: 'Staatliches', cursive;
+	border-style: solid;
+	border-color: #5DFFA2;
+	border-radius: 20px;
+	background-color: black;
+	color: #5DFFA2;
+	font-size: 30px;
+	width: 250px;
+}
+
+.nav-link:hover{
+	border-style: solid;
+	border-color: white;
+	color: #5DFFA2;
+}
+
+/*Cierra encabezado ---------------------*/
+
+/*Comienza el contenido principal -------*/
+/*Generos --------------*/
+
+.domenu{
+	display: grid;
+	grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px;
+	grid-column-gap: 5px;
+	margin: 10px;
+}
+
+.menu3 {
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px;
+	background-color: #5DFFA2;
+	color: black;
+	font-size: 20px;
+	width: 150px;
+	text-align: center;
+}
+
+.menu3:hover{
+	border-style: solid;
+	border-color: white;
+}
+
+.menu3 a{
+	color: black;
+}
+
+
+/*Imagen carousel --------------------*/
+
+
+.imagen{
+         border-radius: 20px;
+         width: 1200px;
+         height: 450px;
+         margin:auto;
+         box-shadow: 4px 4px 4px black;
+         display: flex;
+         justify-content: center;
+         border-style: solid;
+}
+
+/* Aquí va el ¿Quienes somos? ------------*/
+
+.modal-footer button{
+	background-color: black;
+	border-style: solid;
+	border-color:  #5DFFA2;
+}
+
+.modal-footer button:hover{
+	background-color:  #5DFFA2 !important;
+	color: black;
+	border-style: solid;
+	border-color: black;
+}
+
+.btn-primary{
+	background-color: black !important;
+	border-style: solid;
+	border-color: #5DFFA2;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.btn-primary:hover{
+	background-color:  #5DFFA2 !important;
+	color: black;
+}
+
+/*----- Primera secccion de libros ---------*/
+
+.titulo1{
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	padding-top: 5px;
+	color: white;
+}
+
+.novedades{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.novedades h3{
+	font-size: 18px;
+}
+
+.novedades__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+.novedades__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+.novedades div a{
+	font-size: 18px;
+	color: white;
+	font-family:  'Otomanopee One', sans-serif;
+}
+
+/*segunda seccion de libros ------------*/
+
+.titulo2{
+	font-family:  'Otomanopee One', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	color: white;
+}
+
+.pandemia{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.pandemia h3{
+	font-size: 18px;
+}
+
+.pandemia__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+
+.pandemia__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+.pandemia div a{
+	font-size: 18px;
+	color: white;
+	font-family:  'Otomanopee One', sans-serif;
+}
+
+
+/*tercera seccion de libros -------------*/
+
+.titulo3{
+	font-family: 'Staatliches', cursive;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	color: white;
+}
+
+.comics{
+	font-style: 'Passion One', cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px;
+	padding: 50px;
+}
+
+.comics h3{
+	font-size: 18px;
+}
+
+
+.comics__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+.comics__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+.comics div a{
+	font-size: 16px;
+	color: white;
+	font-family:  'Otomanopee One', sans-serif;
+}
+
+/*cuarta seccion de libros --------------*/
+
+.infantiles{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px;
+	padding: 50px;
+}
+
+.infantiles h3{
+	font-size: 16px;
+}
+
+
+.infantiles__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+.infantiles__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+.infantiles div a{
+	font-size: 14px;
+	color: white;
+	font-family:  'Otomanopee One', sans-serif;
+}
+
+.titulo4{
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	padding-left: 40px;
+	color: white;
+}
+
+
+/*Colores -----------*/
+
+
+.menu2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menu2 li a{
+	color: black;
+	background-color:  #5DFFA2;
+	border-style: solid;
+	border-color: black;
+}
+
+.menu2 li a:hover{
+	color: black;
+}
+
+
+/*Tabla -----------*/
+
+.table-bordered{
+	background-color: white !important;
+}
+
+.tabla{
+	background-color: white;
+}
+
+.container h2{
+	color: black;
+}
+
+.tablatitulo{
+	font-style: 'Passion One', cursive;
+	color: #610567;
+	margin: 10px;
+	animation-duration: 2s;
+}
+
+
+/*Formulario --------------*/
+
+.formulario1{
+	margin: 30px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	background-color: black;
+}
+
+.formulario1 label{
+	color: white;
+	padding-left: 20px;
+}
+
+.col-sm-2{
+	color: white;
+	padding-left: 20px;
+}
+
+.text-primary{
+	color: white !important;
+	margin: 10px;
+}
+
+.form-group{
+	width: 90%;
+}
+
+
+/*Garantía -----------------*/
+
+.alert{
+	background-color: black !important;
+	color: white !important;
+	border-style: solid;
+	border-color: #5DFFA2;
+
+}
+
+
+/*Avisos ------------------*/
+
+.avisos{
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: center;
+}
+
+.avisos div{
+	background-color: black !important;
+	color: white;
+	font-size: 19px;
+	width: 400px;
+	height: 100px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	text-align: center;
+}
+
+
+/*Generos --------------*/
+
+.generos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.generos > div{
+	background-color: #00E5A7;
+	margin: 10px;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 20px;
+	border-style: inset;
+	border-color: black;
+	text-align: center;
+}
+
+
+.generos > div:hover{
+	width: 110px;
+	height: 40px;
+}
+
+.generos a{
+	color: white;
+}
+
+.generos a:hover{
+	color: black;
+}
+
+
+/*Footer --------------------*/
+
+.pie{
+	font-family: 'Staatliches', cursive;
+	width: 100%;
+	background-image: linear-gradient(to left, #5DFFA2, black);
+	height: 120px;
+	bottom: 0px;
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: black;
+}
+
+.pie a{
+	color: white;
+}
+
+/*Responsive ----------------------------------------------------*/
+
+
+@media only screen and (min-width: 576px) and (max-width: 740px){
+.body{
+	background-color: #36FCE7;
+}
+.avisos div{
+	font-size: 13px;
+}
+.colores__tamaño{
+	width: 135px;
+	height: 90px;
+}
+.nav-link{
+	width: 130px;
+}
+.btn-ttc{
+	display: flex;
+	flex-direction: row;
+}
+.btn-ttc li a{
+	font-size: 15px;
+}
+.imagen{
+	width: 550px;
+	height: 300px;
+}
+.novedades{
+	display: flex;
+	justify-content: center;
+}
+.novedades__foto{
+	margin: 10px;
+	width: 100px;
+	height: 150px;
+}
+.pandemia{
+	display: flex;
+	justify-content: center;
+}
+.pandemia__foto{
+	margin: 10px;
+	width: 100px;
+	height: 150px;
+}
+.comics{
+	display: flex;
+	justify-content: center;
+}
+.comics__foto{
+	margin: 10px;
+	width: 100px;
+	height: 150px;
+}
+.infantiles{
+	display: flex;
+	justify-content: center;
+}
+.infantiles__foto{
+	margin: 10px;
+	width: 100px;
+	height: 150px;
+}
+.colores__tamaño{
+	height: 80px;
+}
+}
+
+
+
+/*Seccion1 (Clasicos) -------------------*/
+
+.color{
+	background-color:  #B8F9DB;
+}
+
+.encabezado{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+	background-image: linear-gradient(to left, #5DFFA2, black);
+}
+
+.btn-ttc2{
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px 250px;
+	grid-column-gap: 10px;
+	margin: 10px;
+}
+
+
+.texto1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 200%;
+	top: 50px;
+	width: 100%;
+	border-style: inset;
+	border-color: #5DFFA2;
+	background-color: black;
+	color: white;
+}
+
+.tituloclasicos{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+}
+
+
+.galeria{
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 70px;
+}
+
+.galeria h3{
+	font-size: 18px;
+}
+
+
+.galeria__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeria__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+.galeria div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+/*Seccion2 (Aventura) ---------------------*/
+
+.color2{
+	background-color: #B8F9DB;
+}
+
+.encabezado{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+}
+
+
+.tituloaventura{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+}
+
+
+.galeriaaventura{
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 55px;
+}
+
+.galeriaaventura h3{
+	font-size: 18px;
+}
+
+
+.galeriaaventura__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeriaaventura__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+.galeriaaventura div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+/*Seccion3 (Crimen) ------------------------*/
+
+.color3{
+	background-color: #B8F9DB;
+}
+
+.encabezado{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+}
+
+.titulocrimen{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+}
+
+.galeriacrimen{
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 30px;
+	padding-top: 55px;
+}
+
+.galeriacrimen h3{
+	font-size: 18px;
+}
+
+
+.galeriacrimen__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeriacrimen__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+.galeriacrimen div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+/*Seccion4 (Iglesia) -------------------------*/
+
+.color4{
+	background-color: #B8F9DB;
+}
+
+.encabezado{
+	font-family: 'Staatliches', cursive;
+	color: #FFFFFF;
+	background-color: #1B00C1;
+	font-size: 200%;
+	height: 80px;
+	text-shadow: 4px 4px 4px #000000;
+}
+
+.iglesiatitulo{
+	margin: 10px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Passion One', cursive;
+}
+
+
+.galeriaiglesia{
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin: 25px;
+	padding-top: 55px;
+}
+
+.galeriaiglesia h3{
+	font-size: 18px;
+}
+
+.galeriaiglesia div{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+
+.galeriaiglesia__foto{
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	box-shadow: 5px 5px 5px black;
+}
+
+.galeriaiglesia__foto:hover{
+	border-style: solid;
+	border-color: red;
+}
+
+
+/* Novedades -----------------------*/
+
+/* Seccion de cada libro individual ------*/
+
+.color5{
+	background-color: #B8F9DB;
+}
+
+.encabezado__texto1{
+	font-size: 49px;
+	font-family: 'Otomanopee One', sans-serif;
+}
+
+.fondo__libro{
+	display: grid;
+	grid-template-areas: "elRetorno info"
+	                     "elRetorno precios"
+	                     "elRetorno envío"
+	                     "elRetorno dropdown"
+	                     "elRetorno devolución";
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 350px;
+	justify-content: center;
+	margin: 20px;
+	border-style: solid;
+	border-color: #5DFFA2;
+	background-color: #212121;
+}
+
+.tapa{
+	border-style: solid;
+	border-color: white;
+	height: 340px;
+	width: 240px;
+}
+
+.info{
+	color: white;
+}
+
+.precios{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.envio{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.devolucion{
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-top: 10px;
+}
+
+.comprar{
+	font-size: 25px;
+	color: black;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: black;
+	background-color:  #5DFFA2;
+}
+
+/*Política de cookies*/
+
+.muchotexto {
+	font-size: 25px;
+	border-style: solid;
+	border-color: #5DFFA2;
+}
+
+
+
+
