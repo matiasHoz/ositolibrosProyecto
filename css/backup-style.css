@@ -101,6 +101,7 @@
 	font-size: 20px;
 	width: 150px;
 	text-align: center;
+	list-style: none;
 }
 
 .menu3:hover{
@@ -126,6 +127,14 @@
          justify-content: center;
          border-style: solid;
 }
+
+.minititulo{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	padding: 40px;
+}
+
+
 
 /* Aquí va el ¿Quienes somos? ------------*/
 
@@ -194,6 +203,12 @@
 	font-size: 18px;
 	color: white;
 	font-family:  'Otomanopee One', sans-serif;
+}
+
+.contenedor{
+	border-style: solid;
+	border-color: #5DFFA2;
+	border-radius: 15px;
 }
 
 /*segunda seccion de libros ------------*/
@@ -374,6 +389,7 @@
 	border-style: solid;
 	border-color: #5DFFA2;
 	background-color: black;
+	border-radius: 15px;
 }
 
 .formulario1 label{
@@ -550,6 +566,19 @@
 }
 .colores__tamaño{
 	height: 80px;
+}
+.menu3{
+	font-size: 10px;
+	width: 60px;
+}
+.domenu{
+	grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px;
+}
+.encabezado__texto{
+	font-size: 50px;
+}
+.texto1{
+	font-size: 30px;
 }
 }
 

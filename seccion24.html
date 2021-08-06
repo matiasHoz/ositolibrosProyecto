@@ -18,61 +18,103 @@
 	    <h1 class="encabezado__texto">Sección de Fantasía</h1>
         </div>
 
+<!---- Barra de búsqueda --------------------------->
+
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fondo">
   <form class="form-inline" action="/action_page.php">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-success" type="submit">Buscar</button>
   </form>
 </nav>
-<br>
 
-<ul class="nav justify-content-center btn btn-ttc2">
-	<li>
-		<a href="index.html"><img src="imagenes/OsitosLogo.jpg" class="logoositos"></a>
-	</li>
+<!-- Menú principal --------------------------------->
+
+<nav>
+<ul class="nav justify-content-center btn btn-ttc">
+  <li>
+    <a href="index.html"><img src="imagenes/OsitosLogo.jpg" alt="OsitoLibros" class="logoositos"></a>
+  </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion1.html">Clásicos</a>
+      <a class="nav-link" href="index.html#novedades">Novedades</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion2.html">Aventura</a>
+      <a class="nav-link" href="index.html#vendidos">Más vendidos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion3.html">Crimen</a>
+      <a class="nav-link" href="index.html#Registrarse">Registrarse</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="seccion4.html">Iglesia</a>
+  </ul> 
+</nav>
+
+<!-- Menú de géneros --------------------------------->
+
+<nav>
+  <ul class="domenu">
+    <li class="menu3">
+      <a href="seccion1.html">Clásicos</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion2.html">Aventura</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion3.html">Crimen</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion4.html">Iglesia</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion22.html">Música</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion23.html">Turismo</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion24.html">Fantástica</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion25.html">Autoayuda</a>
     </li>
   </ul>
-    </header>
+</nav>
+</header>
+
+<!-- Termina el encabezado ------------------------------->
+<!-- Empieza el contenido principal ---------------------->
 
 <main>
-	<div class="texto1">
+
+<!-- Descripcion del genero ------------------------------>
+
+<section class="texto1">
 	    <p>
 	    La fantasía alude a un género narrativo basado sobre todo en los elementos de fantasía, dentro del cual se pueden agrupar varios subgéneros, entre los que están la literatura de terror, ciencia ficción o la literatura gótica.
 	    </p>   
-    </div>
+</section>
 
+<!-- Primera seccion de libros --------------------------->
 
-<div class="container p-3 my-3 bg-dark text-white contenedor">
+<section class="container p-3 my-3 bg-dark text-white contenedor">
 <div class="tituloclasicos">Fantasía</div>
     <section class="galeria">
-        <div><img src="imagenes/fantasia1.png" alt="fantasia 1" class="galeria__foto"><h3>El Hobbit</h3></div>
-        <div><img src="imagenes/fantasia2.jpg" alt="fantasia 2" class="galeria__foto"><h3>The Last Wish</h3></div>
-        <div><img src="imagenes/fantasia3.jpg" alt="fantasia 3" class="galeria__foto"><h3>El Señor de los Anillos</h3></div>
-        <div><img src="imagenes/fantasia4.jpg" alt="fantasia 4" class="galeria__foto"><h3>Elantris</h3></div>
+        <div><img src="imagenes/fantasia1.png" alt="El Hobbit" class="galeria__foto"><h3>El Hobbit</h3></div>
+        <div><img src="imagenes/fantasia2.jpg" alt="The Last Wish" class="galeria__foto"><h3>The Last Wish</h3></div>
+        <div><img src="imagenes/fantasia3.jpg" alt="El señor de los anillos" class="galeria__foto"><h3>El Señor de los Anillos</h3></div>
+        <div><img src="imagenes/fantasia4.jpg" alt="Elantris" class="galeria__foto"><h3>Elantris</h3></div>
     </section>
-</div>
+</section>
 
-<div class="container p-3 my-3 bg-dark text-white contenedor">
+<!-- Segunda seccion de libros --------------------------->
+
+<section class="container p-3 my-3 bg-dark text-white contenedor">
     <section class="galeria">
-    	<div><img src="imagenes/fantasia5.jpg" alt="fantasia 5" class="galeria__foto"><h3>La historia interminable</h3></div>
-    	<div><img src="imagenes/fantasia6.jpg" alt="fantasia 6" class="galeria__foto"><h3>Sombra y Hueso</h3></div>
-    	<div><img src="imagenes/fantasia7.jpg" alt="fantasia 7" class="galeria__foto"><h3>El Camino de los Reyes</h3></div>
-    	<div><img src="imagenes/fantasia8.jpg" alt="fantasia 8" class="galeria__foto"><h3>La Espada del Destino</h3></div>
+    	<div><img src="imagenes/fantasia5.jpg" alt="La historia interminable" class="galeria__foto"><h3>La historia interminable</h3></div>
+    	<div><img src="imagenes/fantasia6.jpg" alt="Sombra y Hueso" class="galeria__foto"><h3>Sombra y Hueso</h3></div>
+    	<div><img src="imagenes/fantasia7.jpg" alt="El camino de los reyes" class="galeria__foto"><h3>El Camino de los Reyes</h3></div>
+    	<div><img src="imagenes/fantasia8.jpg" alt="La espada del destino" class="galeria__foto"><h3>La Espada del Destino</h3></div>
     </section>
-</div>
- 
+</section>
 </main>
+<!-- Termina el contenido principal ---------------------->
 
 <footer>
 	<footer class="pie">

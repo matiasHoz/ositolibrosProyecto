@@ -18,61 +18,104 @@
 	    <h1 class="encabezado__texto">Sección de Turismo</h1>
         </div>
 
+<!---- Barra de búsqueda --------------------------->
+
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fondo">
   <form class="form-inline" action="/action_page.php">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-success" type="submit">Buscar</button>
   </form>
 </nav>
-<br>
 
-<ul class="nav justify-content-center btn btn-ttc2">
-	<li>
-		<a href="index.html"><img src="imagenes/OsitosLogo.jpg" class="logoositos"></a>
-	</li>
+<!-- Menú principal --------------------------------->
+
+<nav>
+<ul class="nav justify-content-center btn btn-ttc">
+  <li>
+    <a href="index.html"><img src="imagenes/OsitosLogo.jpg" alt="OsitoLibros" class="logoositos"></a>
+  </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion1.html">Clásicos</a>
+      <a class="nav-link" href="index.html#novedades">Novedades</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion2.html">Aventura</a>
+      <a class="nav-link" href="index.html#vendidos">Más vendidos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion3.html">Crimen</a>
+      <a class="nav-link" href="index.html#Registrarse">Registrarse</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="seccion4.html">Iglesia</a>
+  </ul> 
+</nav>
+
+<!-- Menú de géneros --------------------------------->
+
+<nav>
+  <ul class="domenu">
+    <li class="menu3">
+      <a href="seccion1.html">Clásicos</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion2.html">Aventura</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion3.html">Crimen</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion4.html">Iglesia</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion22.html">Música</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion23.html">Turismo</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion24.html">Fantástica</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion25.html">Autoayuda</a>
     </li>
   </ul>
-    </header>
+</nav>
+</header>
+
+<!-- Termina el encabezado ------------------------------->
+<!-- Empieza el contenido principal ---------------------->
 
 <main>
-	<div class="texto1">
+
+<!-- Descripcion del genero ------------------------------>
+
+<section class="texto1">
 	    <p>
 	    ¿Donde quieres ir? ¿Cuales son los mejores consejos a la hora de viajar? Toda esa información la puedes encontrar en esta sección.
 	    </p>   
-    </div>
+</section>
 
+<!-- Primera seccion de libros -------------------------->
 
-<div class="container p-3 my-3 bg-dark text-white contenedor">
+<section class="container p-3 my-3 bg-dark text-white contenedor">
 <div class="tituloclasicos">Turismo</div>
     <section class="galeria">
-        <div><img src="imagenes/turismo1.jpg" alt="turismo 1" class="galeria__foto"><h3>Desconocida Buenos Aires</h3></div>
-        <div><img src="imagenes/turismo2.jpg" alt="turismo 2" class="galeria__foto"><h3>Lugares Asombrosos</h3></div>
-        <div><img src="imagenes/turismo3.jpg" alt="turismo 3" class="galeria__foto"><h3>Autos, rutas y turismo</h3></div>
-        <div><img src="imagenes/turismo4.png" alt="turismo 4" class="galeria__foto"><h3>Chicas en NY</h3></div>
+        <div><img src="imagenes/turismo1.jpg" alt="Desconocida Buenos Aires" class="galeria__foto"><h3>Desconocida Buenos Aires</h3></div>
+        <div><img src="imagenes/turismo2.jpg" alt="Lugares Asombrosos" class="galeria__foto"><h3>Lugares Asombrosos</h3></div>
+        <div><img src="imagenes/turismo3.jpg" alt="Autos, rutas y turismo" class="galeria__foto"><h3>Autos, rutas y turismo</h3></div>
+        <div><img src="imagenes/turismo4.png" alt="Chicas en NY" class="galeria__foto"><h3>Chicas en NY</h3></div>
     </section>
-</div>
+</section>
 
-<div class="container p-3 my-3 bg-dark text-white contenedor">
+<!-- Segunda seccion de libros -------------------------->
+
+<section class="container p-3 my-3 bg-dark text-white contenedor">
     <section class="galeria">
-    	<div><img src="imagenes/turismo5.jpg" alt="turismo 5" class="galeria__foto"><h3>Turismo Dark</h3></div>
-    	<div><img src="imagenes/turismo6.jpg" alt="turismo 6" class="galeria__foto"><h3>El turista desnudo</h3></div>
-    	<div><img src="imagenes/turismo7.jpg" alt="turismo 7" class="galeria__foto"><h3>Exceso de equipaje</h3></div>
-    	<div><img src="imagenes/turismo8.png" alt="turismo 8" class="galeria__foto"><h3>Explore the Americas</h3></div>
+    	<div><img src="imagenes/turismo5.jpg" alt="Turismo Dark" class="galeria__foto"><h3>Turismo Dark</h3></div>
+    	<div><img src="imagenes/turismo6.jpg" alt="El turista desnudo" class="galeria__foto"><h3>El turista desnudo</h3></div>
+    	<div><img src="imagenes/turismo7.jpg" alt="Exceso de equipaje" class="galeria__foto"><h3>Exceso de equipaje</h3></div>
+    	<div><img src="imagenes/turismo8.png" alt="Explore the Americas" class="galeria__foto"><h3>Explore the Americas</h3></div>
     </section>
-</div>
- 
+</section>
 </main>
+
+<!-- Termina el contenido principal --------------------->
 
 <footer>
 	<footer class="pie">

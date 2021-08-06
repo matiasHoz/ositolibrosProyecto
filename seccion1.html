@@ -18,7 +18,7 @@
 		<h1 class="encabezado__texto">Sección de Clásicos</h1>
 	    </div>
 
-
+<!---- Barra de búsqueda --------------------------->
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fondo">
   <form class="form-inline" action="/action_page.php">
@@ -26,57 +26,97 @@
     <button class="btn btn-success" type="submit">Buscar</button>
   </form>
 </nav>
-<br>
 
+<!-- Menú principal --------------------------------->
 
-<ul class="nav justify-content-center btn btn-ttc2">
-	<li>
-		<a href="index.html"><img src="imagenes/OsitosLogo.jpg" class="logoositos"></a>
-	</li>
+<nav>
+<ul class="nav justify-content-center btn btn-ttc">
+  <li>
+    <a href="index.html"><img src="imagenes/OsitosLogo.jpg" alt="OsitoLibros" class="logoositos"></a>
+  </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion1.html">Clásicos</a>
+      <a class="nav-link" href="index.html#novedades">Novedades</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion2.html">Aventura</a>
+      <a class="nav-link" href="index.html#vendidos">Más vendidos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="seccion3.html">Crimen</a>
+      <a class="nav-link" href="index.html#Registrarse">Registrarse</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="seccion4.html">Iglesia</a>
+  </ul> 
+</nav>
+
+<!-- Menú de géneros --------------------------------->
+
+<nav>
+  <ul class="domenu">
+    <li class="menu3">
+      <a href="seccion1.html">Clásicos</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion2.html">Aventura</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion3.html">Crimen</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion4.html">Iglesia</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion22.html">Música</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion23.html">Turismo</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion24.html">Fantástica</a>
+    </li>
+    <li class="menu3">
+      <a href="seccion25.html">Autoayuda</a>
     </li>
   </ul>
+</nav>
 </header>
+
+<!-- Termina el encabezado ------------------------------->
+<!-- Empieza el contenido principal ---------------------->
+
 <main>
 
-    <div class="texto1">
+<!-- Descripcion del genero ------------------------------>
+
+<section class="texto1">
 
 	<p>
 	Un clásico literario es una obra considerada valiosa que perdura a través del tiempo, casi un modelo en su género, es un libro que permanece en el gusto del público durante años.
 	</p>   
 
-    </div>
+</section>
 
-<div class="container p-3 my-3 bg-dark text-white contenedor">
-<div class="tituloclasicos">Clásicos</div>
-    <section class="galeria">
-        <div><img src="imagenes/clasicos1.jpg" alt="primer libro clasicos" class="galeria__foto"><h3>El Misterio del Holandés Errante</h3></div>
-        <div><img src="imagenes/clasicos2.jpg" alt="segundo libro clasicos" class="galeria__foto"><h3>El Retrato de Dorian Gray</h3></div>
-        <div><img src="imagenes/clasicos3.jpg" alt="tercer libro clasicos" class="galeria__foto"><h3>La Salamandra</h3></div>
-        <div><img src="imagenes/clasicos4.jpg" alt="cuarto libro clasicos" class="galeria__foto"><h3>Macbeth</h3></div>
-    </section>
-</div>
+<!-- Primera seccion de libros --------------------------->
 
-<div class="container p-3 my-3 bg-dark text-white contenedor">
-    <section class="galeria">
-    	<div><img src="imagenes/clasicos5.jpg" alt="quinto libro clasicos" class="galeria__foto"><h3>Edipo Rey</h3></div>
-    	<div><img src="imagenes/clasicos6.jpg" alt="sexto libro clasicos" class="galeria__foto"><h3>La Esfinge</h3></div>
-    	<div><img src="imagenes/clasicos7.jpg" alt="septimo libro clasicos" class="galeria__foto"><h3>Frankestein</h3></div>
-    	<div><img src="imagenes/clasicos8.jpg" alt="octavo libro clasicos" class="galeria__foto"><h3>La importancia de llamarse Ernesto</h3></div>
+<section class="container p-3 my-3 bg-dark text-white contenedor">
+<div class="titulo1">Clásicos</div>
+    <section class="novedades">
+        <div><img src="imagenes/clasicos1.jpg" alt="El misterio del holandes errante" class="novedades__foto"><h3>El Misterio del Holandés Errante</h3></div>
+        <div><img src="imagenes/clasicos2.jpg" alt="El retrato de Dorian Gray" class="novedades__foto"><h3>El Retrato de Dorian Gray</h3></div>
+        <div><img src="imagenes/clasicos3.jpg" alt="La Salamandra" class="novedades__foto"><h3>La Salamandra</h3></div>
+        <div><img src="imagenes/clasicos4.jpg" alt="Macbeth" class="novedades__foto"><h3>Macbeth</h3></div>
     </section>
-</div>
- 
+</section>
+
+<!-- Segunda seccion de libros --------------------------->
+
+<section class="container p-3 my-3 bg-dark text-white contenedor">
+    <section class="novedades">
+    	<div><img src="imagenes/clasicos5.jpg" alt="Edipo Rey" class="novedades__foto"><h3>Edipo Rey</h3></div>
+    	<div><img src="imagenes/clasicos6.jpg" alt="La Esfinge" class="novedades__foto"><h3>La Esfinge</h3></div>
+    	<div><img src="imagenes/clasicos7.jpg" alt="Frankestein" class="novedades__foto"><h3>Frankestein</h3></div>
+    	<div><img src="imagenes/clasicos8.jpg" alt="La importancia de llamarse Ernesto" class="novedades__foto"><h3>La importancia de llamarse Ernesto</h3></div>
+    </section>
+</section>
 </main>
+<!-- Termina el contenido principal ---------------------->
 
 <footer>
 	<footer class="pie">
@@ -86,5 +126,6 @@
 			<a href="seccion7.html">Política de privacidad</a>
 		</nav>
 </footer>	
+
 </body>
 </html>
