@@ -3,8 +3,8 @@
 	padding:0px;
 }
 
-.body{
-	background-color: #B8F9DB;
+.color{
+	background-color:  #B8F9DB;
 }
 
 
@@ -18,8 +18,10 @@
 }
 
 .encabezado__texto{
-	font-size: 70px;
+	font-size: 55px;
 	font-family: 'Otomanopee One', sans-serif;
+	color: white;
+	text-align: center;
 }
 
 /*Barra de búsqueda -------------------*/
@@ -90,6 +92,7 @@
 	grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px;
 	grid-column-gap: 5px;
 	margin: 10px;
+	text-decoration: none;
 }
 
 .menu3 {
@@ -102,15 +105,18 @@
 	width: 150px;
 	text-align: center;
 	list-style: none;
+	text-decoration: none;
 }
 
 .menu3:hover{
 	border-style: solid;
 	border-color: white;
+	text-decoration: none;
 }
 
 .menu3 a{
 	color: black;
+	text-decoration: none;
 }
 
 
@@ -183,7 +189,7 @@
 }
 
 .novedades h3{
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .novedades__foto{
@@ -200,142 +206,20 @@
 }
 
 .novedades div a{
-	font-size: 18px;
+	font-size: 20px;
 	color: white;
-	font-family:  'Otomanopee One', sans-serif;
+	font-family:  'Staatliches', cursive;
+	text-align: center;
+}
+
+.novedades div a:hover {
+	text-decoration: none;
 }
 
 .contenedor{
 	border-style: solid;
 	border-color: #5DFFA2;
 	border-radius: 15px;
-}
-
-/*segunda seccion de libros ------------*/
-
-.titulo2{
-	font-family:  'Otomanopee One', sans-serif;
-	font-size: 30px;
-	position: absolute;
-	padding-left: 40px;
-	color: white;
-}
-
-.pandemia{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 50px;
-}
-
-.pandemia h3{
-	font-size: 18px;
-}
-
-.pandemia__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
-}
-
-
-.pandemia__foto:hover{
-	border-style: solid;
-	border-color: red;
-}
-
-.pandemia div a{
-	font-size: 18px;
-	color: white;
-	font-family:  'Otomanopee One', sans-serif;
-}
-
-
-/*tercera seccion de libros -------------*/
-
-.titulo3{
-	font-family: 'Staatliches', cursive;
-	font-size: 30px;
-	position: absolute;
-	padding-left: 40px;
-	color: white;
-}
-
-.comics{
-	font-style: 'Passion One', cursive;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 30px;
-	padding: 50px;
-}
-
-.comics h3{
-	font-size: 18px;
-}
-
-
-.comics__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
-}
-
-.comics__foto:hover{
-	border-style: solid;
-	border-color: red;
-}
-
-.comics div a{
-	font-size: 16px;
-	color: white;
-	font-family:  'Otomanopee One', sans-serif;
-}
-
-/*cuarta seccion de libros --------------*/
-
-.infantiles{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 30px;
-	padding: 50px;
-}
-
-.infantiles h3{
-	font-size: 16px;
-}
-
-
-.infantiles__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
-}
-
-.infantiles__foto:hover{
-	border-style: solid;
-	border-color: red;
-}
-
-.infantiles div a{
-	font-size: 14px;
-	color: white;
-	font-family:  'Otomanopee One', sans-serif;
-}
-
-.titulo4{
-	font-family: 'Otomanopee One', sans-serif;
-	font-size: 30px;
-	position: absolute;
-	padding-left: 40px;
-	color: white;
 }
 
 
@@ -498,6 +382,13 @@
 
 .pie a{
 	color: white;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.pie a:hover {
+	text-decoration: none;
+	font-size: 31px;
 }
 
 /*Responsive ----------------------------------------------------*/
@@ -577,36 +468,42 @@
 .encabezado__texto{
 	font-size: 50px;
 }
-.texto1{
-	font-size: 30px;
+.encabezado__texto {
+	font-size: 32px;
+	text-align: center;
+}
+.tapa {
+	width: 200px;
+	height: 200px;
+}
+.info h2{
+	font-size: 27px;
+	padding: 8px;
+}
+.devolucion{
+	font-size: 18px;
+}
+.tapa {
+	width: 200px;
+}
+.menu3 {
+	font-size: 10px;
+	padding: 7px;
+}
+.domenu {
+	grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px;
+}
+.pie a {
+	font-size: 20px;
+}
+.pie a:hover {
+	font-size: 20px;
 }
 }
 
 
 
 /*Seccion1 (Clasicos) -------------------*/
-
-.color{
-	background-color:  #B8F9DB;
-}
-
-.encabezado{
-	font-family: 'Staatliches', cursive;
-	color: #FFFFFF;
-	background-color: #1B00C1;
-	font-size: 200%;
-	height: 80px;
-	text-shadow: 4px 4px 4px #000000;
-	background-image: linear-gradient(to left, #5DFFA2, black);
-}
-
-.btn-ttc2{
-	display: grid;
-	grid-template-columns: 250px 250px 250px 250px 250px;
-	grid-column-gap: 10px;
-	margin: 10px;
-}
-
 
 .texto1{
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -619,219 +516,16 @@
 	color: white;
 }
 
-.tituloclasicos{
-	margin: 10px;
-	position: absolute;
-	font-size: 40px;
-	font-family: 'Passion One', cursive;
-}
-
-
-.galeria{
-	display: grid;
-	grid-template-columns: 250px 250px 250px 250px;
-	grid-column-gap: 10px;
-	justify-content: center;
-	margin: 25px;
-	padding-top: 70px;
-}
-
-.galeria h3{
-	font-size: 18px;
-}
-
-
-.galeria__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
-}
-
-.galeria__foto:hover{
-	border-style: solid;
-	border-color: red;
-}
-
-.galeria div{
-	font-family: 'Passion One', cursive;
-	font-size: 20px;
-	color: white;
-}
-
-
-/*Seccion2 (Aventura) ---------------------*/
-
-.color2{
-	background-color: #B8F9DB;
-}
-
-.encabezado{
-	font-family: 'Staatliches', cursive;
-	color: #FFFFFF;
-	background-color: #1B00C1;
-	font-size: 200%;
-	height: 80px;
-	text-shadow: 4px 4px 4px #000000;
-}
-
-
-.tituloaventura{
-	margin: 10px;
-	position: absolute;
-	font-size: 40px;
-	font-family: 'Passion One', cursive;
-}
-
-
-.galeriaaventura{
-	display: grid;
-	grid-template-columns: 250px 250px 250px 250px;
-	grid-column-gap: 10px;
-	justify-content: center;
-	margin: 25px;
-	padding-top: 55px;
-}
-
-.galeriaaventura h3{
-	font-size: 18px;
-}
-
-
-.galeriaaventura__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
-}
-
-.galeriaaventura__foto:hover{
-	border-style: solid;
-	border-color: red;
-}
-
-.galeriaaventura div{
-	font-family: 'Passion One', cursive;
-	font-size: 20px;
-	color: white;
-}
 
 
 
-/*Seccion3 (Crimen) ------------------------*/
-
-.color3{
-	background-color: #B8F9DB;
-}
-
-.encabezado{
-	font-family: 'Staatliches', cursive;
-	color: #FFFFFF;
-	background-color: #1B00C1;
-	font-size: 200%;
-	height: 80px;
-	text-shadow: 4px 4px 4px #000000;
-}
-
-.titulocrimen{
-	margin: 10px;
-	position: absolute;
-	font-size: 40px;
-	font-family: 'Passion One', cursive;
-}
-
-.galeriacrimen{
-	display: grid;
-	grid-template-columns: 250px 250px 250px 250px;
-	grid-column-gap: 10px;
-	justify-content: center;
-	margin: 30px;
-	padding-top: 55px;
-}
-
-.galeriacrimen h3{
-	font-size: 18px;
-}
-
-
-.galeriacrimen__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
-}
-
-.galeriacrimen__foto:hover{
-	border-style: solid;
-	border-color: red;
-}
-
-.galeriacrimen div{
-	font-family: 'Passion One', cursive;
-	font-size: 20px;
-	color: white;
-}
 
 
 
-/*Seccion4 (Iglesia) -------------------------*/
-
-.color4{
-	background-color: #B8F9DB;
-}
-
-.encabezado{
-	font-family: 'Staatliches', cursive;
-	color: #FFFFFF;
-	background-color: #1B00C1;
-	font-size: 200%;
-	height: 80px;
-	text-shadow: 4px 4px 4px #000000;
-}
-
-.iglesiatitulo{
-	margin: 10px;
-	position: absolute;
-	font-size: 40px;
-	font-family: 'Passion One', cursive;
-}
 
 
-.galeriaiglesia{
-	display: grid;
-	grid-template-columns: 250px 250px 250px 250px;
-	grid-column-gap: 10px;
-	justify-content: center;
-	margin: 25px;
-	padding-top: 55px;
-}
-
-.galeriaiglesia h3{
-	font-size: 18px;
-}
-
-.galeriaiglesia div{
-	font-family: 'Passion One', cursive;
-	font-size: 20px;
-	color: white;
-}
 
 
-.galeriaiglesia__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
-}
-
-.galeriaiglesia__foto:hover{
-	border-style: solid;
-	border-color: red;
-}
 
 
 /* Novedades -----------------------*/
@@ -889,12 +583,22 @@
 }
 
 .comprar{
-	font-size: 25px;
+	font-size: 20px;
 	color: black;
 	border-radius: 20px;
 	border-style: solid;
 	border-color: black;
 	background-color:  #5DFFA2;
+	text-decoration: none;
+	padding: 8px;
+}
+
+.comprar:hover {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	border-style: solid;
+	border-color: #5DFFA2;
 }
 
 /*Política de cookies*/
