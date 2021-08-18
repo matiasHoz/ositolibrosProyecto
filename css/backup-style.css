@@ -51,6 +51,7 @@
 	border-style: solid;
 	border-color: #5DFFA2;
 	border-radius: 50px;
+	box-shadow: 2px 2px 2px black;
 }
 
 .logoositos:hover{
@@ -74,6 +75,7 @@
 	color: #5DFFA2;
 	font-size: 30px;
 	width: 250px;
+	box-shadow: 2px 2px 2px black;
 }
 
 .nav-link:hover{
@@ -106,6 +108,7 @@
 	text-align: center;
 	list-style: none;
 	text-decoration: none;
+	box-shadow: 1px 1px 1px black;
 }
 
 .menu3:hover{
@@ -163,6 +166,7 @@
 	border-color: #5DFFA2;
 	border-radius: 10px;
 	margin: 10px;
+	box-shadow: 2px 2px 2px black;
 }
 
 .btn-primary:hover{
@@ -179,6 +183,7 @@
 	padding-left: 40px;
 	padding-top: 5px;
 	color: white;
+	text-shadow: 3px 3px 3px black;
 }
 
 .novedades{
@@ -205,11 +210,12 @@
 	border-color: red;
 }
 
-.novedades div a{
+.novedades h3{
 	font-size: 20px;
 	color: white;
 	font-family:  'Staatliches', cursive;
 	text-align: center;
+	text-shadow: 3px 3px 3px black;
 }
 
 .novedades div a:hover {
@@ -256,6 +262,7 @@
 
 .container h2{
 	color: black;
+	text-shadow: 1px 1px 1px black;
 }
 
 .tablatitulo{
@@ -384,6 +391,7 @@
 	color: white;
 	font-size: 30px;
 	padding: 20px;
+	text-shadow: 3px 3px 3px black;
 }
 
 .pie a:hover {
@@ -394,7 +402,7 @@
 /*Responsive ----------------------------------------------------*/
 
 
-@media only screen and (min-width: 576px) and (max-width: 740px){
+@media only screen and (min-width: 576px) and (max-width: 767px){
 .body{
 	background-color: #36FCE7;
 }
@@ -472,10 +480,6 @@
 	font-size: 32px;
 	text-align: center;
 }
-.tapa {
-	width: 200px;
-	height: 200px;
-}
 .info h2{
 	font-size: 27px;
 	padding: 8px;
@@ -483,8 +487,11 @@
 .devolucion{
 	font-size: 18px;
 }
-.tapa {
-	width: 200px;
+section .tapa{
+	width: 180px;
+	height: auto;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 .menu3 {
 	font-size: 10px;
@@ -499,7 +506,48 @@
 .pie a:hover {
 	font-size: 20px;
 }
+.texto1 p{
+	font-size: 70%;
 }
+.novedades h3 {
+	font-size: 13px;
+	text-align: center;
+}
+.row label {
+	margin: 3px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.encabezado__texto {
+	font-size: 30px;
+}
+.btn-ttc {
+	display: grid;
+	grid-template-columns: 180px 180px 180px 180px;
+}
+.nav-link {
+	font-size: 18px;
+	width: 130px;
+}
+.domenu {
+	grid-template-columns: 88px 88px 88px 88px 88px 88px 88px 88px;
+}
+.menu3 {
+	font-size: 15px;
+	width: 90px;
+}
+.
+.pie {
+	bottom: 0px;
+	
+}
+.contenedor {
+	height: 500px;
+}
+}
+
+
 
 
 
@@ -515,20 +563,6 @@
 	background-color: black;
 	color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Novedades -----------------------*/
 
 /* Seccion de cada libro individual ------*/
 
@@ -558,10 +592,10 @@
 }
 
 .tapa{
+    width: 240px;
+	height: 340px;
 	border-style: solid;
 	border-color: white;
-	height: 340px;
-	width: 240px;
 }
 
 .info{
