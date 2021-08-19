@@ -92,6 +92,7 @@
 	grid-column-gap: 5px;
 	margin: 10px;
 	text-decoration: none;
+	justify-content: center;
 }
 
 .menu3 {
@@ -106,6 +107,7 @@
 	list-style: none;
 	text-decoration: none;
 	box-shadow: 1px 1px 1px black;
+	margin: 0 auto;
 }
 
 .menu3:hover{
@@ -225,6 +227,16 @@
 	border-radius: 15px;
 }
 
+/*Aviso de comics ---*/
+
+.comicaviso {
+	margin-left: 120px;
+}
+
+.textito {
+	margin-left: 120px;
+}
+
 
 /*Menu 2 -----------*/
 
@@ -232,6 +244,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin: 0 auto;
 }
 
 .menu2 li a{
@@ -239,6 +252,7 @@
 	background-color:  #5DFFA2;
 	border-style: solid;
 	border-color: black;
+	margin: 0 auto;
 }
 
 .menu2 li a:hover{
@@ -271,12 +285,16 @@
 
 /*Formulario --------------*/
 
-.formulario1{
+.formulario1 {
 	margin: 30px;
 	border-style: solid;
 	border-color: #5DFFA2;
 	background-color: black;
 	border-radius: 15px;
+	width: 60%;
+	padding-left: 70px;
+	margin: 0 auto;
+
 }
 
 .formulario1 label{
@@ -302,10 +320,13 @@
 /*Garantía -----------------*/
 
 .alert{
+	display: flex;
 	background-color: black !important;
 	color: white !important;
 	border-style: solid;
 	border-color: #5DFFA2;
+	margin: 20px;
+
 }
 
 
@@ -318,6 +339,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	justify-content: center;
+	text-align: center;
 }
 
 .avisos div{
@@ -330,6 +352,16 @@
 	border-style: solid;
 	border-color: #5DFFA2;
 	text-align: center;
+	text-decoration: none;
+}
+
+.avisos div a {
+	text-decoration: none;
+	color: #5DFFA2;
+}
+
+.avisos div a:hover {
+	color: #59CEFF;
 }
 
 
@@ -565,6 +597,9 @@ section .tapa{
 .row label {
 	margin: 3px;
 }
+.formulario1 {
+	width: 80%;
+}
 }
 
 /* Responsive tablet -------------------------------------*/
@@ -590,6 +625,9 @@ section .tapa{
 }
 .fondo__libro {
 	height: 520px;
+}
+.formulario1 {
+	width: 90%;
 }
 section .tapa {
 	width: 280px;
