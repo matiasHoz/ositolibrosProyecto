@@ -660,4 +660,79 @@
     grid-template-columns: 180px 100px;
     grid-gap: 2rem;
     margin-left: 1.8rem;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    grid-gap: 1rem;
+  }
+
+  .nav-link {
+    width: 55%;
+    position: absolute;
+    visibility: hidden;
+  }
+  .nav li a {
+    font-size: 1rem;
+  }
+
+  .logoositos {
+    right: 9rem;
+    box-sizing: border-box;
+    position: absolute;
+  }
+
+  .menu3 {
+    font-size: 1rem;
+  }
+
+  .domenu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    grid-gap: 1rem;
+  }
+
+  .imagen {
+    height: 28vh;
+    width: 100%;
+  }
+
+  .minititulo {
+    height: 17vh;
+    justify-content: center;
+  }
+
+  .minititulo h3 {
+    font-size: 1.5rem;
+  }
+
+  .minititulo p {
+    font-size: 0.7rem;
+  }
+
+  .modal {
+    width: 45%;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  .novedades__foto {
+    display: grid;
+    height: 12vh;
+    width: 18vw;
+    margin-top: 1rem;
+  }
+
+  .novedades {
+    grid-gap: 1rem;
+    justify-content: center;
+  }
+
+  .novedades h3 {
+    font-size: 1rem;
+  }
 }
