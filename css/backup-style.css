@@ -1,124 +1,123 @@
-*{
-	margin: 0px;
-	padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.color{
-	background-color:  #B8F9DB;
+.color {
+  background-color: #b8f9db;
 }
-
 
 /*Encabezado -------------*/
 
-.encabezado{
-	background-color: #1B00C1;
-	height: 80px;
-	text-shadow: 5px 5px 5px #000000;
-	background-image: linear-gradient(to left, #5DFFA2, black);
+.encabezado {
+  background-color: #1b00c1;
+  height: 80px;
+  text-shadow: 5px 5px 5px #000000;
+  background-image: linear-gradient(to left, #5dffa2, black);
 }
 
-.encabezado__texto{
-	font-size: 55px;
-	font-family: 'Otomanopee One', sans-serif;
-	color: white;
-	text-align: center;
+.encabezado__texto {
+  font-size: 55px;
+  font-family: "Otomanopee One", sans-serif;
+  color: white;
+  text-align: center;
 }
 
 /*Barra de búsqueda -------------------*/
 
-.btn-success{
-	background-color: black !important;
+.btn-success {
+  background-color: black !important;
 }
 
-.btn-success:hover{
-	background-color:  #5DFFA2 !important;
-	color: black;
-	border-style: solid;
-	border-color: black;
+.btn-success:hover {
+  background-color: #5dffa2 !important;
+  color: black;
+  border-style: solid;
+  border-color: black;
 }
 
-.fondo{
-	background-color: black !important;
-	border-style: solid;
-	border-bottom-color:  #5DFFA2;
+.fondo {
+  background-color: black !important;
+  border-style: solid;
+  border-bottom-color: #5dffa2;
 }
 
 /*Menú de opciones ---------------------*/
 
-.logoositos{
-	height: 95px;
-	width: 110px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	border-radius: 50px;
-	box-shadow: 2px 2px 2px black;
+.logoositos {
+  height: 95px;
+  width: 110px;
+  border-style: solid;
+  border-color: #5dffa2;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px black;
 }
 
-.logoositos:hover{
-	border-style: solid;
-	border-color: white;
+.logoositos:hover {
+  border-style: solid;
+  border-color: white;
 }
 
-.btn-ttc{
-	display: grid;
-	grid-template-columns: 300px 300px 300px 300px;
-	grid-column-gap: 10px;
-	margin: 10px;
+.btn-ttc {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-column-gap: 10px;
+  margin: 10px;
 }
 
-.nav-link{
-	font-family: 'Staatliches', cursive;
-	border-style: solid;
-	border-color: #5DFFA2;
-	border-radius: 20px;
-	background-color: black;
-	color: #5DFFA2;
-	font-size: 30px;
-	width: 250px;
-	box-shadow: 2px 2px 2px black;
+.nav-link {
+  font-family: "Staatliches", cursive;
+  border-style: solid;
+  border-color: #5dffa2;
+  border-radius: 20px;
+  background-color: black;
+  color: #5dffa2;
+  font-size: 30px;
+  width: 250px;
+  box-shadow: 2px 2px 2px black;
 }
 
-.nav-link:hover{
-	border-style: solid;
-	border-color: white;
-	color: #5DFFA2;
+.nav-link:hover {
+  border-style: solid;
+  border-color: white;
+  color: #5dffa2;
 }
 
 /*Generos --------------*/
 
-.domenu{
-	display: grid;
-	grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px;
-	grid-column-gap: 5px;
-	margin: 10px;
-	text-decoration: none;
-	justify-content: center;
+.domenu {
+  display: grid;
+  grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px;
+  grid-column-gap: 5px;
+  margin: 10px;
+  text-decoration: none;
+  justify-content: center;
 }
 
 .menu3 {
-	border-style: solid;
-	border-color: black;
-	border-radius: 15px;
-	background-color: #5DFFA2;
-	color: black;
-	font-size: 20px;
-	width: 150px;
-	text-align: center;
-	list-style: none;
-	text-decoration: none;
-	box-shadow: 1px 1px 1px black;
-	margin: 0 auto;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  background-color: #5dffa2;
+  color: black;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px black;
+  margin: 0 auto;
 }
 
-.menu3:hover{
-	border-style: solid;
-	border-color: white;
-	text-decoration: none;
+.menu3:hover {
+  border-style: solid;
+  border-color: white;
+  text-decoration: none;
 }
 
-.menu3 a{
-	color: black;
-	text-decoration: none;
+.menu3 a {
+  color: black;
+  text-decoration: none;
 }
 
 /*Cierra el encabezado ---------------*/
@@ -126,545 +125,539 @@
 
 /*Imagen carousel --------------------*/
 
-.imagen{
-         border-radius: 20px;
-         width: 1200px;
-         height: 450px;
-         margin:auto;
-         box-shadow: 4px 4px 4px black;
-         display: flex;
-         justify-content: center;
-         border-style: solid;
+.imagen {
+  border-radius: 20px;
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+  box-shadow: 4px 4px 4px black;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
 }
 
-.minititulo{
-	background-color: rgba(0,0,0,0.7);
-	border-radius: 20px;
-	padding: 40px;
+.minititulo {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 40px;
 }
-
 
 /* Aquí va el ¿Quienes somos? ------------*/
 
-.modal-footer button{
-	background-color: black;
-	border-style: solid;
-	border-color:  #5DFFA2;
+.modal-footer button {
+  background-color: black;
+  border-style: solid;
+  border-color: #5dffa2;
 }
 
-.modal-footer button:hover{
-	background-color:  #5DFFA2 !important;
-	color: black;
-	border-style: solid;
-	border-color: black;
+.modal-footer button:hover {
+  background-color: #5dffa2 !important;
+  color: black;
+  border-style: solid;
+  border-color: black;
 }
 
-.btn-primary{
-	background-color: black !important;
-	border-style: solid;
-	border-color: #5DFFA2;
-	border-radius: 10px;
-	margin: 10px;
-	box-shadow: 2px 2px 2px black;
+.btn-primary {
+  background-color: black !important;
+  border-style: solid;
+  border-color: #5dffa2;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px black;
 }
 
-.btn-primary:hover{
-	background-color:  #5DFFA2 !important;
-	color: black;
+.btn-primary:hover {
+  background-color: #5dffa2 !important;
+  color: black;
 }
 
 /*----- secccion de libros ---------*/
 
-.titulo1{
-	font-family: 'Otomanopee One', sans-serif;
-	font-size: 30px;
-	position: absolute;
-	padding-left: 40px;
-	padding-top: 5px;
-	color: white;
-	text-shadow: 3px 3px 3px black;
+.titulo1 {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 30px;
+  position: absolute;
+  padding-left: 40px;
+  padding-top: 5px;
+  color: white;
+  text-shadow: 3px 3px 3px black;
 }
 
-.novedades{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 50px;
+.novedades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
 }
 
-.novedades h3{
-	font-size: 20px;
+.novedades h3 {
+  font-size: 20px;
 }
 
-.novedades__foto{
-	width: 200px;
-	height: 300px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	box-shadow: 5px 5px 5px black;
+.novedades__foto {
+  width: 200px;
+  height: 300px;
+  border-style: solid;
+  border-color: #5dffa2;
+  box-shadow: 5px 5px 5px black;
 }
 
-.novedades__foto:hover{
-	border-style: solid;
-	border-color: red;
+.novedades__foto:hover {
+  border-style: solid;
+  border-color: red;
 }
 
-.novedades h3{
-	font-size: 20px;
-	color: white;
-	font-family:  'Staatliches', cursive;
-	text-align: center;
-	text-shadow: 3px 3px 3px black;
+.novedades h3 {
+  font-size: 20px;
+  color: white;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
 }
 
 .novedades div a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
-.contenedor{
-	border-style: solid;
-	border-color: #5DFFA2;
-	border-radius: 15px;
+.contenedor {
+  border-style: solid;
+  border-color: #5dffa2;
+  border-radius: 15px;
 }
-
-/*Aviso de comics ---*/
-
-.comicaviso {
-	margin-left: 120px;
-}
-
-.textito {
-	margin-left: 120px;
-}
-
 
 /*Menu 2 -----------*/
 
-.menu2{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 0 auto;
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.menu2 li a{
-	color: black;
-	background-color:  #5DFFA2;
-	border-style: solid;
-	border-color: black;
-	margin: 0 auto;
+.menu2 li a {
+  color: black;
+  background-color: #5dffa2;
+  border-style: solid;
+  border-color: black;
+  margin: 0 auto;
 }
 
-.menu2 li a:hover{
-	color: black;
+.menu2 li a:hover {
+  color: black;
 }
-
 
 /*Tabla -----------*/
 
-.table-bordered{
-	background-color: white !important;
+.table-bordered {
+  background-color: white !important;
 }
 
-.tabla{
-	background-color: white;
+.tabla {
+  background-color: white;
 }
 
-.container h2{
-	color: black;
-	text-shadow: 1px 1px 1px black;
+.container h2 {
+  color: black;
+  text-shadow: 1px 1px 1px black;
 }
 
-.tablatitulo{
-	font-style: 'Passion One', cursive;
-	color: #610567;
-	margin: 10px;
-	animation-duration: 2s;
+.tablatitulo {
+  font-style: "Passion One", cursive;
+  color: #610567;
+  margin: 10px;
+  animation-duration: 2s;
 }
-
 
 /*Formulario --------------*/
 
 .formulario1 {
-	margin: 30px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	background-color: black;
-	border-radius: 15px;
-	width: 60%;
-	padding-left: 70px;
-	margin: 0 auto;
-
+  margin: 30px;
+  border-style: solid;
+  border-color: #5dffa2;
+  background-color: black;
+  border-radius: 15px;
+  width: 60%;
+  padding-left: 70px;
+  margin: 0 auto;
 }
 
-.formulario1 label{
-	color: white;
-	padding-left: 20px;
+.formulario1 label {
+  color: white;
+  padding-left: 20px;
 }
 
-.col-sm-2{
-	color: white;
-	padding-left: 20px;
+.col-sm-2 {
+  color: white;
+  padding-left: 20px;
 }
 
-.text-primary{
-	color: white !important;
-	margin: 10px;
+.text-primary {
+  color: white !important;
+  margin: 10px;
 }
 
-.form-group{
-	width: 90%;
+.form-group {
+  width: 90%;
 }
-
 
 /*Garantía -----------------*/
 
-.alert{
-	display: flex;
-	background-color: black !important;
-	color: white !important;
-	border-style: solid;
-	border-color: #5DFFA2;
-	margin: 20px;
-
+.alert {
+  display: flex;
+  background-color: black !important;
+  color: white !important;
+  border-style: solid;
+  border-color: #5dffa2;
+  margin: 20px;
 }
-
 
 /*Avisos ------------------*/
 
-.avisos{
-	font-family: 'Courgette', cursive;
-	font-size: 20px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	justify-content: center;
-	text-align: center;
+.avisos {
+  font-family: "Courgette", cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
 }
 
-.avisos div{
-	background-color: black !important;
-	color: white;
-	font-size: 19px;
-	width: 400px;
-	height: 100px;
-	border-radius: 20px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	text-align: center;
-	text-decoration: none;
+.avisos div {
+  background-color: black !important;
+  color: white;
+  font-size: 19px;
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #5dffa2;
+  text-align: center;
+  text-decoration: none;
 }
 
 .avisos div a {
-	text-decoration: none;
-	color: #5DFFA2;
+  text-decoration: none;
+  color: #5dffa2;
 }
 
 .avisos div a:hover {
-	color: #59CEFF;
+  color: #59ceff;
 }
-
 
 /*Footer --------------------*/
 
-.pie{
-	font-family: 'Staatliches', cursive;
-	width: 100%;
-	background-image: linear-gradient(to left, #5DFFA2, black);
-	height: 120px;
-	bottom: 0px;
-	text-align: center;
-	border-top-style: solid;
-	border-top-color: black;
+.pie {
+  font-family: "Staatliches", cursive;
+  width: 100%;
+  background-image: linear-gradient(to left, #5dffa2, black);
+  height: 100px;
+  bottom: 0px;
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: black;
 }
 
-.pie a{
-	color: white;
-	font-size: 30px;
-	padding: 20px;
-	text-shadow: 3px 3px 3px black;
+.pie a {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  text-shadow: 3px 3px 3px black;
 }
 
 .pie a:hover {
-	text-decoration: none;
-	font-size: 31px;
+  text-decoration: none;
+  color: #c0c0c0;
 }
-
 
 /*texto de cada genero -------------------*/
 
-.texto1{
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 200%;
-	top: 50px;
-	width: 100%;
-	border-style: inset;
-	border-color: #5DFFA2;
-	background-color: black;
-	color: white;
+.texto1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 200%;
+  top: 50px;
+  width: 100%;
+  border-style: inset;
+  border-color: #5dffa2;
+  background-color: black;
+  color: white;
 }
 
 /* Seccion de cada libro individual ------*/
 
-.encabezado__texto1{
-	font-size: 49px;
-	font-family: 'Otomanopee One', sans-serif;
+.encabezado__texto1 {
+  font-size: 49px;
+  font-family: "Otomanopee One", sans-serif;
 }
 
-.fondo__libro{
-	display: grid;
-	grid-template-areas: "elRetorno info"
-	                     "elRetorno precios"
-	                     "elRetorno envío"
-	                     "elRetorno dropdown"
-	                     "elRetorno devolución";
-	grid-template-columns: 300px 300px;
-	grid-template-rows: 350px;
-	justify-content: center;
-	margin: 20px;
-	border-style: solid;
-	border-color: #5DFFA2;
-	background-color: #212121;
+.fondo__libro {
+  display: grid;
+  grid-template-areas:
+    "elRetorno info"
+    "elRetorno precios"
+    "elRetorno envío"
+    "elRetorno dropdown"
+    "elRetorno devolución";
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 350px;
+  justify-content: center;
+  margin: 20px;
+  border-style: solid;
+  border-color: #5dffa2;
+  background-color: #212121;
 }
 
-.tapa{
-    width: 240px;
-	height: 340px;
-	border-style: solid;
-	border-color: white;
+.tapa {
+  width: 240px;
+  height: 340px;
+  border-style: solid;
+  border-color: white;
 }
 
-.info{
-	color: white;
+.info {
+  color: white;
 }
 
-.precios{
-	color: white;
-	font-family: 'Open Sans Condensed', sans-serif;
+.precios {
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
-.envio{
-	font-family: 'Open Sans Condensed', sans-serif;
+.envio {
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
-.devolucion{
-	font-family: 'Open Sans Condensed', sans-serif;
-	padding-top: 10px;
+.devolucion {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-top: 10px;
 }
 
-.comprar{
-	font-size: 20px;
-	color: black;
-	border-radius: 20px;
-	border-style: solid;
-	border-color: black;
-	background-color:  #5DFFA2;
-	text-decoration: none;
-	padding: 8px;
+.comprar {
+  font-size: 20px;
+  color: black;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: #5dffa2;
+  text-decoration: none;
+  padding: 8px;
 }
 
 .comprar:hover {
-	text-decoration: none;
-	color: white;
-	background-color: black;
-	border-style: solid;
-	border-color: #5DFFA2;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: #5dffa2;
 }
 
 /*Conocenos - Politica de cookies/privacidad*/
 
 .muchotexto {
-	font-size: 25px;
-	border-style: solid;
-	border-color: #5DFFA2;
+  font-size: 25px;
+  border-style: solid;
+  border-color: #5dffa2;
 }
-
-
 
 /*Responsive celular ----------------------------------------------------*/
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
-.body{
-	background-color: #36FCE7;
-}
-.avisos div{
-	font-size: 13px;
-}
-.colores__tamaño{
-	width: 135px;
-	height: 90px;
-}
-.nav-link{
-	width: 130px;
-}
-.btn-ttc{
-	display: flex;
-	flex-direction: row;
-}
-.btn-ttc li a{
-	font-size: 15px;
-}
-.imagen{
-	width: 550px;
-	height: 300px;
-}
-.novedades{
-	display: flex;
-	justify-content: center;
-}
-.novedades__foto{
-	margin: 10px;
-	width: 100px;
-	height: 150px;
-}
-.pandemia{
-	display: flex;
-	justify-content: center;
-}
-.pandemia__foto{
-	margin: 10px;
-	width: 100px;
-	height: 150px;
-}
-.comics{
-	display: flex;
-	justify-content: center;
-}
-.comics__foto{
-	margin: 10px;
-	width: 100px;
-	height: 150px;
-}
-.infantiles{
-	display: flex;
-	justify-content: center;
-}
-.infantiles__foto{
-	margin: 10px;
-	width: 100px;
-	height: 150px;
-}
-.colores__tamaño{
-	height: 80px;
-}
-.menu3{
-	font-size: 10px;
-	width: 60px;
-}
-.domenu{
-	grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px;
-}
-.encabezado__texto{
-	font-size: 50px;
-}
-.encabezado__texto {
-	font-size: 32px;
-	text-align: center;
-}
-.info h2{
-	font-size: 27px;
-	padding: 8px;
-}
-.devolucion{
-	font-size: 18px;
-}
-section .tapa{
-	width: 180px;
-	height: auto;
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .body {
+    background-color: #36fce7;
+  }
+  .avisos div {
+    font-size: 13px;
+  }
+  .colores__tamaño {
+    width: 135px;
+    height: 90px;
+  }
+  .nav-link {
+    width: 130px;
+  }
+  .btn-ttc {
+    display: flex;
+    flex-direction: row;
+  }
+  .btn-ttc li a {
+    font-size: 15px;
+  }
+  .imagen {
+    width: 550px;
+    height: 300px;
+  }
+  .novedades {
+    display: flex;
+    justify-content: center;
+  }
+  .novedades__foto {
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+  }
+  .pandemia {
+    display: flex;
+    justify-content: center;
+  }
+  .pandemia__foto {
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+  }
+  .comics {
+    display: flex;
+    justify-content: center;
+  }
+  .comics__foto {
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+  }
+  .infantiles {
+    display: flex;
+    justify-content: center;
+  }
+  .infantiles__foto {
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+  }
+  .colores__tamaño {
+    height: 80px;
+  }
+  .menu3 {
+    font-size: 10px;
+    width: 60px;
+  }
+  .domenu {
+    grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px;
+  }
+  .encabezado__texto {
+    font-size: 50px;
+  }
+  .encabezado__texto {
+    font-size: 52px;
+    text-align: center;
+  }
+  .info h2 {
+    font-size: 27px;
+    padding: 8px;
+  }
+  .devolucion {
+    font-size: 18px;
+  }
+  section .tapa {
+    width: 180px;
+    height: auto;
     margin-left: 60px;
     margin-top: 30px;
-}
-.menu3 {
-	font-size: 10px;
-	padding: 7px;
-}
-.domenu {
-	grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px;
-}
-.pie a {
-	font-size: 20px;
-}
-.pie a:hover {
-	font-size: 20px;
-}
-.texto1 p{
-	font-size: 70%;
-}
-.novedades h3 {
-	font-size: 13px;
-	text-align: center;
-}
-.row label {
-	margin: 3px;
-}
-.formulario1 {
-	width: 80%;
-}
+  }
+  .menu3 {
+    font-size: 10px;
+    padding: 7px;
+  }
+  .domenu {
+    grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px;
+  }
+  .pie a {
+    font-size: 20px;
+  }
+  .pie a:hover {
+    font-size: 20px;
+  }
+  .texto1 p {
+    font-size: 70%;
+  }
+  .novedades h3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  .row label {
+    margin: 3px;
+  }
+  .formulario1 {
+    width: 80%;
+  }
 }
 
 /* Responsive tablet -------------------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px){
-.encabezado__texto {
-	font-size: 30px;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .encabezado__texto {
+    font-size: 50px;
+  }
+  .btn-ttc {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+  }
+  .nav-link {
+    font-size: 18px;
+    width: 130px;
+  }
+  .domenu {
+    grid-template-columns: 88px 88px 88px 88px 88px 88px 88px 88px;
+  }
+  .menu3 {
+    font-size: 15px;
+    width: 90px;
+  }
+  .fondo__libro {
+    height: 520px;
+  }
+  .formulario1 {
+    width: 90%;
+  }
+  section .tapa {
+    width: 280px;
+    height: auto;
+    margin-top: 40px;
+  }
+  .info h2 {
+    margin-top: 40px;
+    font-size: 35px;
+  }
+  .precios {
+    font-size: 25px;
+  }
+  .envio {
+    font-size: 25px;
+  }
+  .devolucion {
+    font-size: 20px;
+  }
+  .novedades__foto {
+    width: 130px;
+    height: 190px;
+    margin: 10px;
+  }
+  .avisos div {
+    font-size: 15px;
+  }
+  main .muchotexto {
+    font-size: 26px;
+  }
+  .texto1 p {
+    font-size: 80%;
+  }
+  .imagen {
+    width: 750px;
+    height: 400px;
+  }
 }
-.btn-ttc {
-	display: grid;
-	grid-template-columns: 150px 150px 150px 150px;
+
+@media only screen and (min-width: 412px) and (max-width: 915px) {
+  .encabezado__texto {
+    font-size: 2rem;
+    justify-content: center;
+  }
+
+  .fondo {
+    height: 4rem;
+  }
+
+  .form-inline {
+    display: grid;
+    grid-template-columns: 180px 100px;
+    grid-gap: 2rem;
+    margin-left: 1.8rem;
 }
-.nav-link {
-	font-size: 18px;
-	width: 130px;
-}
-.domenu {
-	grid-template-columns: 88px 88px 88px 88px 88px 88px 88px 88px;
-}
-.menu3 {
-	font-size: 15px;
-	width: 90px;
-}
-.fondo__libro {
-	height: 520px;
-}
-.formulario1 {
-	width: 90%;
-}
-section .tapa {
-	width: 280px;
-	height: auto;
-	margin-top: 40px;
-}
-.info h2{
-	margin-top: 40px;
-	font-size: 35px;
-}
-.precios {
-	font-size: 25px;
-}
-.envio {
-	font-size: 25px;
-}
-.devolucion {
-	font-size: 20px;
-}
-.novedades__foto {
-	width: 130px;
-	height: 190px;
-	margin: 10px;
-}
-.avisos div{
-	font-size: 15px;
-}
-main .muchotexto {
-	font-size: 26px;
-}
-.texto1 p {
-	font-size: 80%;
-}
-.imagen {
-	width: 750px;
-	height: 400px;
-}
-}
- 
- 
