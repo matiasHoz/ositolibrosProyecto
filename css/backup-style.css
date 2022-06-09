@@ -735,4 +735,78 @@
   .novedades h3 {
     font-size: 1rem;
   }
+
+  .container h2 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .menu2 {
+    display: none;
+    visibility: hidden;
+  }
+
+  .table {
+    display: none;
+  }
+
+  .formulario1 {
+    width: 80%;
+  }
+
+  .formulario1 > {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .avisos div {
+    font-size: 0.8rem;
+  }
+
+  .avisos .otro {
+    font-size: 0.6rem;
+  }
+
+  .pie a {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+
+  .pie {
+    bottom: 0;
+  }
+
+  .fondo__libro {
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+
+  .fondo__libro .info {
+    font-size: 1rem;
+  }
+
+  .fondo__libro h2 {
+    font-size: 1.3rem;
+    margin-right: 8rem;
+    overflow-wrap: break-word;
+  }
+
+  .fondo__libro .devolucion {
+    margin-top: 1rem;
+    margin-right: 8rem;
+    font-size: 1rem;
+    overflow: hidden;
+    overflow-wrap: break-word;
+  }
+
+  .fondo__libro .comprar {
+    font-size: 1rem;
+  }
+
+  .tapa {
+    width: 40%;
+    height: 25vh;
+    margin-left: 9rem;
+    margin-top: 3rem;
+  }
 }
